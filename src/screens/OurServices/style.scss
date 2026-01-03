@@ -1,0 +1,23 @@
+/* Global background for the Services page */
+.our-services-page {
+  /* Base color */
+  background-color: #ffffff;
+
+  /* Layer 1: decorative circular image on right/bottom only (left one removed) */
+  background-image: url('../../assets/aboutUs/Group-bg.png');
+  background-repeat: no-repeat;
+  background-position: right -10% bottom 10%;
+  background-size: 720px auto;
+
+  /* Ensure it spans full viewport */
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .our-services-page {
+    /* Dial back size/positions for mobile (left one removed) */
+    background-position: right -40% bottom -10%;
+    background-size: 420px auto;
+  }
+}
+

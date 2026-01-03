@@ -1,0 +1,251 @@
+.footer {
+  background-color: #0a0118;
+  height: 483px;
+  left: 3px;
+  position: absolute;
+  top: 143px;
+  width: 1452px;
+}
+
+.footer .text-box {
+  height: 32px;
+  left: 58px;
+  position: absolute;
+  top: 412px;
+  width: 1304px;
+}
+
+.footer .lorem-ipsum-is {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 1009px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 291px;
+}
+
+.footer .text-wrapper {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+
+.footer .divider {
+  height: 1px;
+  left: 58px;
+  object-fit: cover;
+  position: absolute;
+  top: 394px;
+  width: 1300px;
+}
+
+.footer .element {
+  height: 204px;
+  left: 1036px;
+  position: absolute;
+  top: 74px;
+  width: 325px;
+}
+
+.footer .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 321px;
+}
+
+.footer .butto-n {
+  background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+  border-radius: 25.8px;
+  height: 52px;
+  left: 1px;
+  position: absolute;
+  top: 56px;
+  width: 320px;
+}
+
+.footer .text-wrapper-2 {
+  color: #fffafa;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 26px;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: 70px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+  width: 134px;
+}
+
+.footer .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 322px;
+}
+
+.footer .overlap-group {
+  background-color: #fffafa;
+  border-radius: 23.5px;
+  height: 47px;
+  position: relative;
+  width: 320px;
+}
+
+.footer .text-wrapper-3 {
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.footer .p {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  width: 313px;
+}
+
+.footer .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 128px;
+}
+
+.footer .element-2 {
+  height: 168px;
+  left: 689px;
+  position: absolute;
+  top: 88px;
+  width: 247px;
+}
+
+.footer .lorem-ipsum-is-2 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 48px;
+  width: 243px;
+}
+
+.footer .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.footer .element-3 {
+  height: 168px;
+  left: 497px;
+  position: absolute;
+  top: 88px;
+  width: 152px;
+}
+
+.footer .lorem-ipsum-is-3 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 48px;
+  width: 121px;
+}
+
+.footer .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 148px;
+}
+
+.footer .element-4 {
+  height: 152px;
+  left: 58px;
+  position: absolute;
+  top: 154px;
+  width: 366px;
+}
+
+.footer .social-media-icon {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 159px;
+}
+
+.footer .lorem-ipsum-is-4 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 364px;
+}

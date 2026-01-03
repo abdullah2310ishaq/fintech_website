@@ -1,0 +1,45 @@
+.button {
+  all: unset;
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #ffffff1a;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: inline-flex;
+  padding: 5px 23px;
+  position: relative;
+}
+
+.button .span-2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px 1px 0px 1.2px;
+  position: relative;
+  width: 49px;
+}
+
+.button .text-wrapper-33 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 9%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: -10.60px;
+  margin-right: -10.60px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,189 @@
+.section {
+  height: 858px;
+  left: 408px;
+  position: absolute;
+  top: 3319px;
+  width: 1252px;
+}
+
+.section .overlap-5 {
+  height: 692px;
+  left: 0;
+  position: absolute;
+  top: 166px;
+  width: 1246px;
+}
+
+.section .frame-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1246px;
+}
+
+.section .image-box {
+  height: 663px;
+  position: relative;
+  width: 1245.82px;
+}
+
+.section .overlap-group-6 {
+  height: 663px;
+  position: relative;
+  width: 1246px;
+}
+
+.section .bakground {
+  height: 487px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  width: 1246px;
+}
+
+.section .image {
+  height: 652px;
+  left: 89px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1067px;
+}
+
+.section .rectangle-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(184, 184, 184, 0.45) 0%,
+    rgba(0, 0, 0, 0.86) 64%
+  );
+  border-radius: 23px;
+  height: 663px;
+  left: 89px;
+  position: absolute;
+  top: 0;
+  width: 1067px;
+}
+
+.section .curcle-icon {
+  height: 16.97px;
+  position: relative;
+  width: 49.93px;
+}
+
+.section .curcle-icon-2 {
+  background-color: #d4d4d4;
+  border-radius: 8.49px;
+  height: 17px;
+  left: 33px;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.section .curcle-icon-3 {
+  background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+  border-radius: 8.49px;
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.section .frame-5 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 999px;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  left: 137px;
+  overflow: hidden;
+  padding: 20px 30px;
+  position: absolute;
+  top: 581px;
+  width: 266px;
+}
+
+.section .text-wrapper-25 {
+  color: #ffffff;
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  font-style: var(--button-font-style);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  margin-bottom: -4.00px;
+  margin-top: -6.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section .text-wrapper-26 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section .text-wrapper-27 {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 137px;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: absolute;
+  top: 481px;
+  width: 970px;
+}
+
+.section .text-wrapper-28 {
+  color: #ffffff;
+  font-family: var(--heading-h3-font-family);
+  font-size: var(--heading-h3-font-size);
+  font-style: var(--heading-h3-font-style);
+  font-weight: var(--heading-h3-font-weight);
+  left: 137px;
+  letter-spacing: var(--heading-h3-letter-spacing);
+  line-height: var(--heading-h3-line-height);
+  position: absolute;
+  top: 441px;
+  white-space: nowrap;
+}
+
+.section .our-success-stories {
+  color: transparent;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 0;
+  width: 393px;
+}
+
+.section .text-wrapper-29 {
+  color: #000000;
+}
+
+.section .text-wrapper-30 {
+  color: #5aafff;
+}

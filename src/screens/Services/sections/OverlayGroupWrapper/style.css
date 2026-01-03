@@ -1,0 +1,142 @@
+.overlap-group-wrapper {
+  height: 433px;
+  left: 456px;
+  position: absolute;
+  top: 1064px;
+  width: 990px;
+}
+
+.overlap-group-wrapper .overlap-2 {
+  height: 433px;
+  position: relative;
+}
+
+.overlap-group-wrapper .group-11 {
+  height: 433px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 989px;
+}
+
+.overlap-group-wrapper .frame-4 {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-18-4.png) 50%
+    50% / cover,
+    linear-gradient(0deg, rgba(0, 93, 154, 0.1) 0%, rgba(0, 93, 154, 0.1) 100%);
+  border-radius: 28.4px;
+  height: 433px;
+  left: 564px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.overlap-group-wrapper .frame-5 {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-21.png) 50%
+    50% / cover;
+  border-radius: 28.4px;
+  height: 433px;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+.overlap-group-wrapper .group-12 {
+  height: 136px;
+  left: 55px;
+  position: relative;
+  top: 147px;
+  transform: rotate(180deg);
+  width: 95px;
+}
+
+.overlap-group-wrapper .overlap-group-6 {
+  height: 136px;
+  position: relative;
+  width: 93px;
+}
+
+.overlap-group-wrapper .ellipse {
+  height: 136px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 93px;
+}
+
+.overlap-group-wrapper .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 22px;
+}
+
+.overlap-group-wrapper .group-13 {
+  height: 272px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 476px;
+}
+
+.overlap-group-wrapper .group-14 {
+  height: 272px;
+  position: relative;
+  width: 480px;
+}
+
+.overlap-group-wrapper .overlap-group-7 {
+  height: 74px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 436px;
+}
+
+.overlap-group-wrapper .text-wrapper-15 {
+  color: #000000;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.overlap-group-wrapper .line-4 {
+  height: 4px;
+  left: 1px;
+  position: absolute;
+  top: 70px;
+  width: 435px;
+}
+
+.overlap-group-wrapper .text-wrapper-16 {
+  color: #000000c4;
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 112px;
+  width: 476px;
+}
+
+.overlap-group-wrapper .design-component-instance-node {
+  left: 0 !important;
+  position: absolute !important;
+  top: 307px !important;
+}

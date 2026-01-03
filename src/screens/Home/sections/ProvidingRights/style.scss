@@ -1,0 +1,267 @@
+.providing-rights-container {
+  background-color: transparent; // Remove light gray background
+  padding: 0 0 40px 0; // Remove top padding to allow curve to show
+  margin: 0 0 40px 0; // Remove top margin, keep bottom margin
+  overflow: visible; // Allow curve to be visible
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0; // remove top margin to close gap
+  }
+}
+
+.curved-about-wrapper {
+  padding: 50px 0;
+  border-radius: 71px 71px 0 0; // Only curve top corners
+  position: relative;
+  bottom: 40px;
+  z-index: 1000;
+  background: rgb(255, 255, 255);
+  margin-bottom: -40px; // Compensate for negative bottom
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    border-radius: 40px 40px 0 0;
+    bottom: 20px;
+    padding: 30px 0;
+    margin-bottom: -20px;
+  }
+}
+
+.mainProviding {
+  margin: 0 90px;
+  display: flex;
+  //   flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Mobile responsive - keep row layout
+  @media (max-width: 768px) {
+    flex-direction: row; // Keep horizontal
+    flex-wrap: wrap; // Allow wrapping
+    margin: 20px;
+    gap: 20px;
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .left-side {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      flex: 1 1 100%; // Full width for text
+      order: 1;
+      text-align: left; // Left align text
+    }
+
+    .section-title {
+      font-size: 20px;
+      color: #02879a;
+      font-family: "DM Sans";
+      // text-transform: uppercase;
+    }
+
+    .heading-providing {
+      font-family: "Tiro Kannada", serif;
+      font-weight: 400;
+      font-size: 58px; // Increased from 48px
+      line-height: 67px; // Increased from 57px
+      color: #000;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        font-size: 36px; // Increased from 28px
+        line-height: 44px; // Increased from 36px
+        text-align: left; // Left align
+      }
+    }
+    .blue-text {
+      color: #02879a;
+    }
+    .detail {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.4;
+      max-width: 690px;
+      color: #000000;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 100%;
+        text-align: left; // Left align
+      }
+    }
+  }
+
+  .right-side {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      flex: 1 1 100%; // Full width, will wrap below text
+      order: 2;
+      justify-content: flex-start; // Align left
+      margin-top: 20px;
+    }
+
+    .right-side-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr); // Keep 2 columns
+        gap: 15px;
+        width: 100%;
+        max-width: 100%; // Full width
+        margin: 0;
+      }
+    }
+
+    .right-side-content-500 {
+      //   background-color: #f2f8fc;
+      padding: 30px 20px;
+      border-radius: 16px;
+      text-align: center;
+      //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+
+      .number {
+        display: block;
+        font-size: 32px;
+        font-weight: bold;
+        color: #02879a;
+      }
+
+      .label {
+        display: block;
+        margin-top: 10px;
+        color: #000;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+
+      &:hover {
+        background-color: #e0f0fb;
+        transform: translateY(-4px);
+      }
+    }
+  }
+  .explore-more-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 21px 30px;
+    background-color: #015d73;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+
+    // &:hover {
+    //   color: #1a5e82;
+    // }
+  }
+
+  // Removed duplicate mobile query - using main mobile styles above
+}
+
+.image-slider {
+  margin-top: 40px; // Reduced since curved wrapper has margin-bottom
+  display: flex;
+  justify-content: center;
+  gap: 24px; // Increased gap
+  overflow-x: auto;
+  padding: 0 40px;
+  max-width: 100%; // Full width container
+  margin-left: auto;
+  margin-right: auto;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    gap: 16px;
+    padding: 0 20px;
+    flex-direction: row; // Keep horizontal
+    align-items: center;
+    overflow-x: auto; // Enable horizontal scroll
+    justify-content: flex-start;
+    
+    // Smooth scrolling
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    // Thin scrollbar
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 95, 119, 0.3);
+      border-radius: 4px;
+    }
+  }
+
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+
+  img {
+    width: 380px; // Increased from 300px
+    height: 280px; // Increased from 200px
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    // Medium screens
+    @media (max-width: 1024px) {
+      width: 320px;
+      height: 240px;
+    }
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      flex: 0 0 auto; // Don't shrink, keep fixed width
+      width: 280px;
+      height: 180px;
+    }
+  }
+
+  // Hide scrollbar - cross-browser
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+}

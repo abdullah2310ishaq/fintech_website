@@ -1,0 +1,569 @@
+.group {
+  /* height: 1182px; */
+  /* left: 298px; */
+  position: relative;
+  /* top: 4196px; */
+  /* width: 1456px; */
+}
+
+.group .overlap {
+  background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+  height: 699px;
+  /* left: 0; */
+  position: relative;
+  /* top: 0; */
+  /* width: 1452px; */
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.left-side{
+
+}
+.group .contact-us-for-the {
+  color: transparent;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  /* left: 90px; */
+  /* top: 192px; */
+  /* width: 529px; */
+  width: 100%;
+  max-width: 529px;
+  margin: 0 auto 1rem auto; /* Center and add spacing */
+  position: relative;
+}
+
+.group .text-wrapper {
+  color: #ffffff;
+}
+
+.group .span {
+  color: #5aafff;
+}
+
+.group .message {
+  height: 313px;
+  /* left: 188px; */
+  /* top: 234px; */
+  /* width: 568px; */
+  width: 100%;
+  max-width: 568px;
+  margin: 2rem auto 0 auto;
+  position: relative;
+}
+
+.group .div-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: #5aafff;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  left: 0;
+  padding: 20px 30px;
+  position: relative;
+  top: 253px;
+  width: 550px;
+}
+
+.group .div {
+  color: #ffffff;
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  font-style: var(--button-font-style);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  margin-bottom: -4.00px;
+  margin-top: -6.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.group .overlap-group {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e3dbd8;
+  border-radius: 999px;
+  height: 60px;
+  left: 0;
+  position: relative;
+  top: 90px;
+  width: 550px;
+}
+
+.group .text-wrapper-2 {
+  color: var(--x-800);
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 19px;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: relative;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.group .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 518px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.group .text-wrapper-4 {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 0;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: relative;
+  top: 0px;
+  white-space: nowrap;
+}
+
+.group .overlap-2 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e3dbd8;
+  border-radius: 999px;
+  height: 60px;
+  left: 0;
+  position: relative;
+  /* top: 0px; */
+  bottom: 115px;
+  width: 260px;
+}
+
+.group .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 225px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.group .overlap-3 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e3dbd8;
+  border-radius: 999px;
+  height: 60px;
+  left: 290px;
+  position: relative;
+  /* top: 0px; */
+  bottom: 175px;
+  width: 260px;
+}
+
+.group .text-wrapper-6 {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 0;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.group .text-wrapper-7 {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 290px;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.group .info {
+  height: 223px;
+  left: 97px;
+  position: relative;
+  top: 232px;
+  width: 363px;
+}
+
+.group .div-2 {
+  height: 61px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 184px;
+}
+
+.group .div-3 {
+  height: 61px;
+  left: 45px;
+  position: relative;
+  top: 0;
+  width: 141px;
+}
+
+.group .text-wrapper-8 {
+  color: #ffffff;
+  font-family: var(--heading-h4-font-family);
+  font-size: var(--heading-h4-font-size);
+  font-style: var(--heading-h4-font-style);
+  font-weight: var(--heading-h4-font-weight);
+  left: 0;
+  letter-spacing: var(--heading-h4-letter-spacing);
+  line-height: var(--heading-h4-line-height);
+  position: relative;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.group .text-wrapper-9 {
+  color: #5aafff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0px;
+  white-space: nowrap;
+}
+
+.group .div-4 {
+  height: 61px;
+  left: 0;
+  position: relative;
+  top: 21px;
+  width: 148px;
+}
+
+.group .div-5 {
+  height: 61px;
+  left: 45px;
+  position: absolute;
+  top: 0;
+  width: 105px;
+}
+
+.group .div-6 {
+  height: 61px;
+  left: 0;
+  position: relative;
+  top: 32px;
+  width: 365px;
+}
+
+.group .div-7 {
+  height: 61px;
+  left: 45px;
+  position: relative;
+  top: 0;
+  width: 322px;
+}
+
+.group .text-wrapper-10 {
+  color: #5aafff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0px;
+  white-space: nowrap;
+}
+
+.group .lorem-ipsum-is {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 97px;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: relative;
+  top: 202px;
+  width: 576px;
+}
+
+.group .footer {
+  background-color: #0a0118;
+  height: 483px;
+  left: 0;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.group .text-box {
+  height: 32px;
+  left: 58px;
+  position: relative;
+  top: 412px;
+  width: 100%;
+}
+
+.group .p {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 1009px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 291px;
+}
+
+.group .lorem-ipsum-is-2 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+
+.group .divider {
+  height: 1px;
+  left: 58px;
+  object-fit: cover;
+  position: absolute;
+  top: 394px;
+  width: 1300px;
+}
+
+.group .element {
+  height: 204px;
+  left: 1036px;
+  position: absolute;
+  top: 74px;
+  width: 325px;
+}
+
+.group .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 321px;
+}
+
+.group .butto-n {
+  background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+  border-radius: 25.8px;
+  height: 52px;
+  left: 1px;
+  position: absolute;
+  top: 56px;
+  width: 320px;
+}
+
+.group .text-wrapper-11 {
+  color: #fffafa;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 26px;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: 70px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+  width: 134px;
+}
+
+.group .overlap-group-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 322px;
+}
+
+.group .overlap-group-2 {
+  background-color: #fffafa;
+  border-radius: 23.5px;
+  height: 47px;
+  position: relative;
+  width: 320px;
+}
+
+.group .text-wrapper-12 {
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.group .text-wrapper-13 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  width: 313px;
+}
+
+.group .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 128px;
+}
+
+.group .element-2 {
+  height: 168px;
+  left: 689px;
+  position: absolute;
+  top: 88px;
+  width: 247px;
+}
+
+.group .lorem-ipsum-is-3 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 48px;
+  width: 243px;
+}
+
+.group .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.group .element-3 {
+  height: 168px;
+  left: 497px;
+  position: absolute;
+  top: 88px;
+  width: 152px;
+}
+
+.group .lorem-ipsum-is-4 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 48px;
+  width: 121px;
+}
+
+.group .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 148px;
+}
+
+.group .element-4 {
+  height: 152px;
+  left: 58px;
+  position: absolute;
+  top: 154px;
+  width: 366px;
+}
+
+.group .social-media-icon {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 159px;
+}
+
+.group .lorem-ipsum-is-5 {
+  color: #ffffff;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 364px;
+}

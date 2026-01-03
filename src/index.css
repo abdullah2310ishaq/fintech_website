@@ -1,0 +1,48 @@
+/* Import existing fonts - must come before Tailwind directives */
+@import url("https://fonts.googleapis.com/css?family=Tiro+Kannada:400|Plus+Jakarta+Sans:var(--heading-h3-font-weight),var(--body-m-font-weight),var(--button-font-weight),var(--heading-h4-font-weight)|DM+Sans:600,500,400,700|Inter:400|Poppins:300,500,400,600|Roboto:500");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+    scroll-behavior: auto; /* Disable smooth scroll on mobile for instant positioning */
+  }
+  
+  body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  /* Ensure pages start from top on mobile */
+  #root {
+    position: relative;
+    min-height: 100vh;
+  }
+}

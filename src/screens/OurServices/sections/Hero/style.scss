@@ -1,0 +1,738 @@
+.main-hero {
+  position: relative;
+  overflow: hidden;
+  .background-img-circle {
+    position: absolute;
+    z-index: 100;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    // background-image: url('../../../../assets/aboutUs/Group-bg.png');
+    // background-position: center 50px;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+
+    img {
+      display: block;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .background-img-circle {
+      top: 320px;
+    }
+  }
+  .hero-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+    .hero-left {
+      flex: 0.4;
+      z-index: 100;
+      position: relative;
+      top: 110px;
+      left: -40px;
+      @media (max-width: 1024px) {
+        left: -20px;
+      }
+      @media (max-width: 768px) {
+        left: 0;
+      }
+      .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: left center;
+      }
+    }
+
+    .hero-right {
+      flex: 0.6;
+      position: relative;
+      display: flex;
+      align-items: flex-end; // align to bottom
+      justify-content: flex-end; // align to right
+      overflow: hidden;
+
+      .hero-overlay {
+        opacity: 1;
+        background: linear-gradient(
+          90deg,
+          #005f77 0%,
+          #018699 100%
+        ); // blue with opacity
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 262px;
+        padding: 40px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .hero-title {
+          margin-bottom: 10px;
+          font-family: "Tiro Kannada";
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+
+        .hero-subtext {
+          font-family: "Poppins";
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 1px;
+          text-align: center;
+          text-transform: capitalize;
+          width: 60%;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      .hero-right {
+        align-items: center;
+
+        .hero-overlay {
+          width: 100%;
+          height: 50%;
+          border-bottom-left-radius: 40px;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    }
+  }
+  .consultant-slider-container {
+    padding: 80px 40px 20px;
+    background-color: transparent;
+    z-index: 9000;
+    position: relative !important;
+    margin-top: 200px;
+    text-align: center;
+    .slider-heading {
+      font-size: 48px;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 110px;
+      font-family: "Tiro Kannada", serif;
+      line-height: 1.2;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 100px;
+      padding: 60px 20px 0;
+
+      .slider-heading {
+        font-size: 36px;
+        line-height: 1.3;
+        margin-bottom: 50px;
+      }
+    }
+
+    .slider-wrapper {
+      position: relative;
+      height: 290px; // Match the height when slider-item is hovered
+
+      .arrow {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: #fff;
+        font-size: 22px;
+        padding: 10px 18px;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.8);
+        }
+
+        &.left {
+          left: -20px;
+        }
+
+        &.right {
+          right: -20px;
+        }
+      }
+
+      .slider {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding-bottom: 10px;
+        height: 100%;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      .slider-item {
+        position: relative;
+        width: 274px;
+        height: 190px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: height 0.3s ease;
+
+        &.active {
+          height: 290px;
+
+          img {
+            transform: scale(1.05);
+          }
+
+          .overlay-consultant {
+            opacity: 1;
+          }
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 16px;
+          transition: transform 0.3s ease, height 0.3s ease;
+        }
+
+        .overlay-consultant {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          opacity: 0;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          border-radius: 16px;
+          transition: opacity 0.3s ease;
+          z-index: 2;
+          font-size: 18px;
+          font-family: "Poppins", sans-serif;
+          text-align: center;
+          padding: 60px;
+          padding-bottom: 60px;
+          flex-direction: column;
+
+          .text-slider-detail {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: start;
+          }
+          .line-slider {
+            margin-top: 10px;
+            height: 4px;
+            width: 110%;
+            // color: #f9f9f9;
+            background-color: #5aafff;
+          }
+        }
+
+        &:hover {
+          height: 290px; //height adjust from hereeee
+          // width: 235px;
+
+          img {
+            transform: scale(1.05);
+          }
+
+          .overlay-consultant {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 60px;
+      .slider-item {
+        min-width: 160px;
+        height: 100px;
+      }
+
+      .arrow {
+        display: none;
+      }
+    }
+  }
+}
+
+.card-column {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px 120px;
+  background-image: url("../../../../assets/aboutUs/group2-bg.png");
+  background-repeat: no-repeat;
+  background-position: center 500px;
+  // width: 100%;
+  // min-height: 100vh;
+  background-size: contain;
+  position: relative;
+  z-index: 100;
+}
+
+.card-wrapper {
+  display: flex;
+
+  &.align-left {
+    justify-content: flex-start;
+  }
+
+  &.align-right {
+    justify-content: flex-end;
+  }
+}
+
+.custom-card {
+  display: flex;
+  justify-content: space-between;
+  //   align-items: center;
+  //   background: #f9f9f9;
+  border-radius: 28.4px;
+  //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  //   padding: 40px;
+  gap: 30px;
+  max-width: 989px;
+  height: 433px;
+  width: 100%;
+
+  .card-left {
+    flex: 1;
+    max-width: 50%;
+
+    .card-title {
+      font-size: 32px;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 10px;
+      font-family: "Tiro Kannada", serif;
+    }
+
+    .card-divider {
+      width: 70%;
+      height: 4px;
+      background-color: #02879a;
+      margin-bottom: 20px;
+    }
+
+    .card-description {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card-button {
+      background-color: #02879a;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      width: 167px;
+      height: 50px;
+      border-radius: 50px;
+      // padding-top: 21px;
+      // padding-right: 30px;
+      // padding-bottom: 21px;
+      // padding-left: 30px;
+      gap: 10px;
+
+      &:hover {
+        background-color: #000;
+      }
+    }
+  }
+
+  .card-right {
+    flex-shrink: 0;
+
+    img {
+      width: 425px;
+      height: 433px;
+      object-fit: cover;
+      border-radius: 28.4px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-card {
+    flex-direction: column;
+    height: auto;
+
+    .card-left,
+    .card-right {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .card-right img {
+      width: 100%;
+      height: auto;
+      max-height: 433px;
+    }
+  }
+}
+
+/* Mobile-specific overrides based on reference */
+@media (max-width: 768px) {
+  body {
+    scroll-behavior: auto !important;
+  }
+
+  .main-hero {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+
+    .background-img-circle {
+      z-index: 0;
+      top: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 120%;
+        max-width: none;
+        height: auto;
+        object-fit: contain;
+        opacity: 1;
+        filter: brightness(1.1);
+      }
+    }
+
+    .hero-container {
+      flex-direction: column;
+      height: 400px;
+      min-height: 400px;
+      gap: 0;
+      width: 100%;
+      max-width: 100%;
+      overflow: visible;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      z-index: 1;
+
+      .hero-left {
+        display: none !important;
+        height: 0;
+        padding: 0;
+        margin: 0;
+      }
+
+      .hero-right {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        overflow: visible;
+        padding: 0;
+        margin: 0;
+
+        .hero-overlay {
+          background: linear-gradient(
+            90deg,
+            rgba(0, 95, 119, 0.85) 0%,
+            rgba(1, 134, 153, 0.8) 100%
+          );
+          width: 100%;
+          height: 100%;
+          border-bottom-left-radius: 80px;
+          border-bottom-right-radius: 0;
+          padding: 60px 20px;
+          justify-content: center;
+          overflow: visible;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .hero-title {
+            margin: 0 0 16px 0;
+            font-size: 32px;
+            line-height: 40px;
+            color: #ffffff;
+          }
+
+          .hero-subtext {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0;
+            text-align: center;
+            color: #ffffff;
+            margin: 0;
+            padding: 0 10px;
+            max-width: 90%;
+          }
+
+          .hero-subtext-mobile {
+            display: block !important;
+          }
+
+          .hero-subtext-desktop {
+            display: none !important;
+          }
+        }
+      }
+    }
+
+    .consultant-slider-container {
+      padding: 40px 16px;
+      margin-top: 80px;
+      z-index: 1;
+      width: 100%;
+
+      .slider-heading {
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-family: "Tiro Kannada", serif;
+        font-weight: 400;
+      }
+
+      .slider-wrapper {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 0;
+
+        .slider {
+          display: flex;
+          overflow-x: auto;
+          scroll-behavior: smooth;
+          gap: 15px;
+          padding: 30px 20px;
+          height: auto;
+          width: 100%;
+          justify-content: flex-start;
+          scroll-snap-type: x mandatory;
+
+          &::-webkit-scrollbar {
+            display: none;
+          }
+        }
+
+        .slider-item {
+          width: 180px;
+          height: 180px;
+          border-radius: 18px;
+          flex-shrink: 0;
+          scroll-snap-align: center;
+          transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+          cursor: pointer;
+
+          img {
+            border-radius: 18px;
+          }
+
+          .overlay-consultant {
+            padding: 16px 12px;
+            border-radius: 18px;
+            opacity: 0.7;
+            justify-content: flex-end;
+            align-items: flex-start;
+
+            .text-slider-detail {
+              font-family: "Poppins";
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: 0%;
+              text-align: left;
+            }
+
+            .line-slider {
+              margin-top: 6px;
+              height: 2px;
+              width: 50px;
+              background-color: #5aafff;
+              margin-left: 0;
+              margin-right: 0;
+            }
+          }
+
+          &.active {
+            width: 260px;
+            height: 260px;
+            z-index: 10;
+
+            .overlay-consultant {
+              padding: 35px 20px;
+              opacity: 1;
+
+              .text-slider-detail {
+                font-size: 18px;
+                line-height: 26px;
+              }
+
+              .line-slider {
+                margin-top: 10px;
+                height: 3px;
+                width: 80%;
+              }
+            }
+          }
+
+          &:hover {
+            transform: scale(1.02);
+          }
+        }
+
+        .arrow {
+          display: none;
+        }
+      }
+    }
+
+    .card-column {
+      gap: 40px;
+      padding: 30px 16px;
+      background-image: none;
+      background-position: center 800px;
+      z-index: 1;
+    }
+
+    .card-wrapper {
+      justify-content: center !important;
+    }
+
+    .custom-card {
+      flex-direction: column;
+      height: auto;
+      gap: 20px;
+      max-width: 100%;
+      border-radius: 16px;
+
+      .card-left {
+        max-width: 100%;
+        text-align: center;
+
+        .card-title {
+          font-size: 24px;
+        font-weight: 400;
+          color: #000;
+          margin-bottom: 12px;
+        font-family: "Tiro Kannada", serif;
+        }
+
+        .card-divider {
+          width: 60px;
+          height: 3px;
+          background-color: #02879a;
+          margin: 0 auto 16px;
+        }
+
+        .card-description {
+          font-size: 14px;
+          color: #666;
+          line-height: 1.5;
+          margin-bottom: 16px;
+          font-family: "Poppins", sans-serif;
+        }
+
+        .card-button {
+          background-color: #02879a;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          font-size: 14px;
+          font-family: "Poppins", sans-serif;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          width: auto;
+          height: auto;
+          border-radius: 50px;
+          gap: 8px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+
+          &:hover {
+            background-color: #000;
+          }
+        }
+      }
+
+      .card-right {
+        flex-shrink: 0;
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: auto;
+          aspect-ratio: 16 / 9;
+          object-fit: cover;
+          border-radius: 16px;
+          max-height: 250px;
+        }
+      }
+    }
+
+    .loader-overlay {
+      z-index: 1;
+    }
+  }
+}
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.no-results {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #555;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 2rem;
+}
+

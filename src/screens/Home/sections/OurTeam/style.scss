@@ -1,0 +1,194 @@
+.our-team-main {
+  display: flex;
+  padding: 100px 40px;
+  flex-wrap: wrap;
+  justify-content: center; // Optional, to center items on smaller screens
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    padding: 40px 20px;
+    flex-direction: column-reverse; // Images after text
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .our-team-imgs {
+    width: 680px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 0 0 auto; // prevents it from growing or shrinking
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; // Center images
+      gap: 15px;
+      margin-top: 30px; // Space between text and images
+    }
+
+    .img-wrapper {
+      position: absolute;
+      width: 243px;
+      height: 348px;
+      border-radius: 21px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        position: static;
+        width: 100px;
+        height: 120px;
+        border-radius: 12px;
+        margin: 0;
+        transform: none !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        flex-shrink: 0;
+      }
+    }
+
+    .pos-1 {
+      left: 10%;
+      bottom: 0;
+      z-index: 1;
+      transform: scale(1);
+    }
+
+    .pos-2 {
+      top: 130px;
+      left: 50%;
+      transform: translateX(-50%) scale(1.1);
+      z-index: 3;
+    }
+
+    .pos-3 {
+      right: 10%;
+      bottom: 0;
+      z-index: 2;
+      transform: scale(1);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .our-team-detail-div {
+    flex: 1;
+    max-width: calc(100% - 680px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px 0 20px;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      max-width: 100%;
+      padding: 20px 0;
+      text-align: left; // Left align like screenshot
+      align-items: flex-start; // Align to left
+      position: relative; // For button positioning
+    }
+
+    .our-team-text {
+      font-size: 20px;
+      color: #02879a;
+      font-family: "DM Sans";
+      font-weight: 400;
+      line-height: 100%;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        font-size: 20px; // make label a bit bigger on mobile
+        text-align: left; // Left align
+      }
+    }
+
+    .meet-the-face {
+      font-family: "Tiro Kannada";
+      font-weight: 400;
+      font-size: 58px; // Increased from 48px
+      line-height: 65px; // Increased from 55px
+      letter-spacing: 0%;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        font-size: 32px; // Increased from 24px
+        line-height: 40px; // Increased from 32px
+        text-align: left; // Left align
+        display: inline; // Make inline so text flows
+        max-width: 60%; // Leave space for button
+      }
+    }
+
+    .blue-text {
+      color: #02879a;
+    }
+
+    .meet-face-para {
+      font-family: "Poppins";
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 26px;
+      letter-spacing: 0%;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left; // Left align
+        max-width: 100%;
+      }
+    }
+
+    .explore-more-team {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 169px;
+      border-radius: 50px;
+      gap: 10px;
+      padding: 21px 30px;
+      background-color: #015d73;
+      color: #fff;
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      cursor: pointer;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        width: auto;
+        padding: 12px 24px;
+        font-size: 12px;
+        margin: 0;
+        position: absolute; // Position opposite to heading
+        top: 130px; // Aligned with "Fincan Inc." baseline (20px label + 40px line1 + 40px line2 + ~30px to Fincan Inc baseline)
+        right: 0;
+        align-self: flex-end; // Align to bottom
+      }
+
+      // Extra small devices fine-tune
+      @media (max-width: 480px) {
+        top: 135px; // Slightly adjusted for smaller screens
+      }
+
+      // &:hover {
+      //   color: #1a5e82;
+      // }
+    }
+  }
+
+}

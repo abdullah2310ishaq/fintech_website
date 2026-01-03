@@ -1,0 +1,240 @@
+.group-wrapper {
+  height: 591px;
+  left: 364px;
+  position: absolute;
+  top: 1812px;
+  width: 1290px;
+}
+
+.group-wrapper .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+  left: 0;
+  position: absolute;
+  top: 169px;
+}
+
+.group-wrapper .ellipse-wrapper {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/rectangle-5329.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 422px;
+  position: relative;
+  width: 190px;
+}
+
+.group-wrapper .ellipse {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #5aafff;
+  border-radius: 30px;
+  height: 60px;
+  left: 110px;
+  position: relative;
+  top: 26px;
+  width: 60px;
+}
+
+.group-wrapper .element-5 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/rectangle-5329-1.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 422px;
+  position: relative;
+  width: 410px;
+}
+
+.group-wrapper .ellipse-2 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #5aafff;
+  border-radius: 29.5px / 30px;
+  height: 60px;
+  left: 308px;
+  position: absolute;
+  top: 26px;
+  width: 59px;
+}
+
+.group-wrapper .group-2 {
+  height: 239px;
+  left: 12px;
+  position: absolute;
+  top: 166px;
+  width: 390px;
+}
+
+.group-wrapper .overlap-group-4 {
+  background-color: #5aafff;
+  border-radius: 20px;
+  height: 239px;
+  position: relative;
+  width: 386px;
+}
+
+.group-wrapper .frame-3 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 999px;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  left: 28px;
+  overflow: hidden;
+  padding: 20px 30px;
+  position: absolute;
+  top: 151px;
+  width: 174px;
+}
+
+.group-wrapper .text-wrapper-19 {
+  color: #ffffff;
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  font-style: var(--button-font-style);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  margin-bottom: -4.00px;
+  margin-top: -6.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.group-wrapper .text-wrapper-20 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.group-wrapper .text-wrapper-21 {
+  color: #ffffff;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 28px;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: absolute;
+  top: 71px;
+  width: 290px;
+}
+
+.group-wrapper .text-wrapper-22 {
+  color: #ffffff;
+  font-family: var(--heading-h3-font-family);
+  font-size: var(--heading-h3-font-size);
+  font-style: var(--heading-h3-font-style);
+  font-weight: var(--heading-h3-font-weight);
+  left: 28px;
+  letter-spacing: var(--heading-h3-letter-spacing);
+  line-height: var(--heading-h3-line-height);
+  position: absolute;
+  top: 31px;
+  white-space: nowrap;
+}
+
+.group-wrapper .element-6 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/rectangle-5330-1.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 422px;
+  position: relative;
+  width: 190px;
+}
+
+.group-wrapper .element-7 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/rectangle-5330.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 422px;
+  position: relative;
+  width: 190px;
+}
+
+.group-wrapper .element-8 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/rectangle-5332.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 422px;
+  position: relative;
+  width: 190px;
+}
+
+.group-wrapper .component {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 20px;
+  justify-content: flex-end;
+  left: 1125px;
+  position: absolute;
+  top: 0;
+}
+
+.group-wrapper .group-3 {
+  height: 60px;
+  position: relative;
+  width: 62px;
+}
+
+.group-wrapper .overlap-group-5 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/group.png);
+  background-size: 100% 100%;
+  height: 160px;
+  left: -50px;
+  position: relative;
+  top: -44px;
+  width: 160px;
+}
+
+.group-wrapper .text-wrapper-23 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 73px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  white-space: nowrap;
+}
+
+.group-wrapper .overlap-wrapper {
+  height: 60px;
+  margin-right: -2.00px;
+  position: relative;
+  width: 62px;
+}
+
+.group-wrapper .overlap-4 {
+  background-image: url(https://c.animaapp.com/mbg35a3lsFgGqz/img/ellipse-1.svg);
+  background-size: 100% 100%;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+
+.group-wrapper .text-wrapper-24 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}

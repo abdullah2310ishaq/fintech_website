@@ -1,0 +1,44 @@
+/* Ensure Home page starts from top */
+body {
+  scroll-behavior: auto !important;
+}
+
+html {
+  scroll-behavior: auto !important;
+}
+
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  width: 100%;
+  padding-top: 80px; // Add space for fixed header
+  
+  // Mobile responsive
+  @media (max-width: 768px) {
+    padding-top: 5px; // Very minimal gap - almost no gap
+  }
+}
+
+.white-div-container{
+    position: relative;
+    z-index: 1; // Lower z-index to prevent header overlay issues
+    padding: 0; // Remove padding to allow curve overlap
+    margin-top: 0; // Remove negative margin for desktop too
+    border-radius: 0; // Remove rounded corners for desktop too
+    background-color: transparent; // Remove white background for desktop too
+    overflow: visible; 
+
+    // Allow curved sections to overlap
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+        padding: 0; // remove all padding
+        margin-top: 0; // remove gap above section
+        border-radius: 0; // square edges on mobile
+        background-color: transparent; // no white panel on mobile
+    }
+}

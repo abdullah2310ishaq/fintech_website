@@ -1,0 +1,60 @@
+.section-component-node {
+  height: 433px;
+  left: 207px;
+  position: absolute;
+  top: 1627px;
+  width: 989px;
+}
+
+.section-component-node .frame-11 {
+  background-image: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-18-5.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 28.4px;
+  height: 433px;
+  left: 564px;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.section-component-node .group-17 {
+  height: 272px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 476px;
+}
+
+.section-component-node .group-18 {
+  height: 272px;
+  position: relative;
+  width: 480px;
+}
+
+.section-component-node .text-wrapper-19 {
+  color: #000000;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.section-component-node .text-wrapper-20 {
+  color: #000000c4;
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 112px;
+  width: 476px;
+}

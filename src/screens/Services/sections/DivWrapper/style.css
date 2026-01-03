@@ -1,0 +1,91 @@
+.div-wrapper {
+  height: 433px;
+  left: 168px;
+  position: absolute;
+  top: 1596px;
+  width: 1031px;
+}
+
+.div-wrapper .group-5 {
+  height: 433px;
+  position: relative;
+}
+
+.div-wrapper .img-wrapper {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-18-4.png) 50%
+    50% / cover,
+    linear-gradient(0deg, rgba(0, 93, 154, 0.1) 0%, rgba(0, 93, 154, 0.1) 100%);
+  border-radius: 28.4px;
+  height: 433px;
+  left: 606px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.div-wrapper .rectangle-2 {
+  height: 433px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.div-wrapper .group-6 {
+  height: 272px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 476px;
+}
+
+.div-wrapper .group-7 {
+  height: 272px;
+  position: relative;
+  width: 480px;
+}
+
+.div-wrapper .overlap-group-4 {
+  height: 74px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 396px;
+}
+
+.div-wrapper .bussiness-services {
+  color: #000000;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.div-wrapper .line-2 {
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 396px;
+}
+
+.div-wrapper .text-wrapper-11 {
+  color: #000000c4;
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 112px;
+  width: 476px;
+}

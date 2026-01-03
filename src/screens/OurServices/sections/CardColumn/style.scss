@@ -1,0 +1,136 @@
+.card-column {
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px 120px;
+  background-image: url("../../../../assets/aboutUs/Group-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  z-index: 10000;
+}
+
+.card-wrapper {
+  display: flex;
+
+  &.align-left {
+    justify-content: flex-start;
+  }
+
+  &.align-right {
+    justify-content: flex-end;
+  }
+}
+
+.custom-card {
+  display: flex;
+  justify-content: space-between;
+  //   align-items: center;
+  //   background: #f9f9f9;
+  border-radius: 28.4px;
+  //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  //   padding: 40px;
+  gap: 30px;
+  max-width: 989px;
+  height: 433px;
+  width: 100%;
+
+  .card-left {
+    flex: 1;
+    max-width: 50%;
+
+    .card-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 10px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card-divider {
+      width: 70%;
+      height: 4px;
+      background-color: #005d9a;
+      margin-bottom: 20px;
+    }
+
+    .card-description {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card-button {
+      background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #246b94;
+      }
+    }
+  }
+
+  .card-right {
+    flex-shrink: 0;
+
+    img {
+      width: 425px;
+      height: 433px;
+      object-fit: cover;
+      border-radius: 28.4px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-card {
+    flex-direction: column;
+    height: auto;
+
+    .card-left,
+    .card-right {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .card-right img {
+      width: 100%;
+      height: auto;
+      max-height: 433px;
+    }
+  }
+}
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.no-results {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #555;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 2rem;
+}

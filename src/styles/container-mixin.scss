@@ -1,0 +1,15 @@
+// Reusable container mixin for consistent horizontal alignment
+@mixin container-x {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 120px;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+}
+
+// Alternative: Use as a class instead of mixin
+.container-x {
+  @include container-x;
+}

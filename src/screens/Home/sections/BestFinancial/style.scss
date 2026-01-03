@@ -1,0 +1,379 @@
+.best-financial-main {
+  background: linear-gradient(90deg, #005f77 0%, #018699 100%);
+  padding: 50px;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
+  .best-upper-part-div {
+    display: flex;
+    justify-content: space-between;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+  .service-heading {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    position: relative;
+    left: 30px;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      left: 0;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  .arrow-controls {
+    height: 60px;
+    // width: 60px;
+    position: relative;
+    // top: 40px;
+    // right: 40px;
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+
+    .arrow-btn {
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      // border: none;
+      border-radius: 50%;
+      // padding: 10px;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      // &:hover {
+      //   background-color: #2e82b5;
+      // }
+
+      svg {
+        width: 40px;
+        height: 25px;
+      }
+    }
+    .arrow-btn-next {
+      border: none;
+      background-color: #a9a8a3;
+    }
+  }
+}
+
+.best-financial-heading {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  position: relative;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Tiro Kannada";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+/* container for the grid */
+.pic-div-best {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+
+  // Desktop: show all images
+  @media (min-width: 769px) {
+    .pic-1 {
+      display: block !important;
+    }
+  }
+
+  .pic-1 {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    height: 422px;
+    border-radius: 12px; // Slightly curved edges in normal state
+    background-size: cover;
+    background-position: center;
+    border: none;
+    transition: transform 0.25s ease, border-color 0.25s, flex 0.3s ease, border-radius 0.3s ease;
+    overflow: hidden;
+
+    // Web view - hover effect only
+    @media (min-width: 769px) {
+      // Normal state - keep original (flex: 1, equal width)
+      
+      &.active {
+        flex: 2; // Expand more when hovered
+        min-width: 410px;
+        border-radius: 20px; // Rounded when hovered
+        
+        .detail-box-best-fin {
+          border-radius: 0 0 20px 20px; // Match card bottom
+        }
+      }
+    }
+
+    .circle-service-card {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .detail-box-best-fin {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: auto;
+      min-height: 250px;
+      padding: 24px 30px;
+      border-radius: 0 0 12px 12px; // Match slight curve at bottom in normal state
+
+      // Semi-transparent dark background with blur effect
+      background-color: rgba(0, 0, 0, 0.6); // Dark transparent background
+      backdrop-filter: blur(8px); // Optional: adds frosted glass effect
+      -webkit-backdrop-filter: blur(8px); // Safari support
+
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+
+      span:first-child {
+        font-family: "Plus Jakarta Sans";
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+      }
+
+      span:nth-child(2) {
+        text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      .btn-explore-more {
+        width: fit-content;
+        height: 42px;
+        border-radius: 999px;
+        padding: 0 30px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+
+    &.active {
+      .detail-box-best-fin {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .pic-div-best {
+    gap: 15px;
+    flex-wrap: wrap;
+
+    .pic-1 {
+      flex: 1 1 calc(50% - 15px); // 2 per row
+      min-width: 280px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .best-financial-main {
+    padding: 30px 20px;
+  }
+
+  .pic-div-best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+
+    .pic-1 {
+      width: 100%;
+      max-width: 100%; // Full width on mobile
+      height: 300px; // Increased height
+      min-width: 0;
+      border-radius: 16px;
+      margin: 0;
+      display: none; // Hide all by default on mobile
+      background-size: cover !important; // Force cover to fill entire area
+      background-position: center center !important; // Center the image
+      background-repeat: no-repeat !important;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+
+      &.active {
+        display: block; // Show only active image on mobile
+      }
+
+      // Hover effect on mobile (tap to expand slightly)
+      &:active {
+        transform: scale(0.98);
+      }
+
+      .detail-box-best-fin {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-height: 150px;
+        padding: 20px;
+        border-radius: 0 0 16px 16px;
+        background-color: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        opacity: 0; // Hidden by default
+        transform: translateY(20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: none;
+
+        span:first-child {
+          font-family: "Plus Jakarta Sans";
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: left;
+        }
+
+        span:nth-child(2) {
+          text-align: left;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .btn-explore-more {
+          width: fit-content;
+          padding: 8px 20px;
+          background-color: rgba(255, 255, 255, 0.9);
+          color: #005f77;
+          border-radius: 25px;
+          font-size: 12px;
+          font-weight: 600;
+          margin-top: 8px;
+        }
+      }
+
+      // Show text on tap/touch
+      &:active .detail-box-best-fin,
+      &.show-details .detail-box-best-fin {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+    }
+  }
+
+  .arrow-controls {
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+    position: relative;
+    z-index: 10;
+
+    .arrow-btn {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 2px solid white;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      svg {
+        width: 24px;
+        height: 24px;
+        color: white;
+      }
+    }
+
+    .arrow-btn-next {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 2px solid white;
+    }
+  }
+
+  .best-upper-part-div {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start; // Align to left
+  }
+
+  .best-heading-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .service-heading {
+    font-size: 16px;
+    text-align: left; // Left align
+    left: 0;
+    padding-left: 0;
+  }
+
+  .best-financial-heading {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: left; // Left align
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+}

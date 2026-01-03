@@ -1,0 +1,392 @@
+
+.main-div-success {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 160px; // restore original default spacing
+  position: relative; // For absolute positioning of dots
+  // color: #d40000;
+}
+
+// Desktop-only curve and tighter spacing
+@media (min-width: 769px) {
+  .main-div-success {
+    margin-bottom: 60px; // only on desktop
+    background: #ffffff; // ensure curve is visible
+    border-bottom-left-radius: 71px; // curved bottom like About
+    border-bottom-right-radius: 71px;
+    overflow: visible; // Allow dots to show outside curve
+    padding-bottom: 60px; // Add space for dots below curve
+  }
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .main-div-success {
+    margin-bottom: 80px; // original mobile spacing
+    gap: 20px;
+  }
+}
+
+.success-header {
+  text-transform: capitalize;
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    flex-direction: row; // Keep row for heading and button
+    padding: 20px;
+    text-align: left;
+    gap: 15px;
+    align-items: center; // Center vertically
+    justify-content: space-between; // Button opposite side
+    position: relative;
+  }
+  h2 {
+    // padding-left: 20px;
+    margin: 0 0 8px;
+    font-family: 'Tiro Kannada';
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      font-size: 28px;
+      line-height: 36px;
+      margin: 0; // Remove margin for better alignment
+      flex: 1; // Take available space
+    }
+  }
+.blue-text{
+  color: #5AAFFF;
+}
+  .right-side-box{
+    display: flex;
+    gap: 20px;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0;
+      width: auto; // Just fit button width
+      align-items: center; // Center button
+      flex-shrink: 0; // Don't shrink
+    }
+
+    p {
+      max-width: 430px;
+      height: 50px;
+      margin: 0 0 20px;
+      line-height: 1.45;
+
+      font-family: 'Poppins';
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        display: none; // Hide paragraph on mobile
+      }
+    }
+    .primary-cta {
+      height: 50px;
+      padding: 0px 24px;
+      border-radius: 999px;
+      background: #005D9A;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      color: #fff;
+      font-family: 'Poppins';
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+      // Mobile responsive
+      @media (max-width: 768px) {
+        height: 40px;
+        padding: 0 20px;
+        font-size: 12px;
+        white-space: nowrap; // Keep text in one line
+      }
+    }
+  }
+}
+
+.image-stack-wrapper {
+  position: relative;
+  width: 1067px;
+  height: 663px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: visible;
+  margin-bottom: 0; // Remove margin to bring dots closer
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+
+.image-layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.0);
+  width: 1200px;
+  height: 563px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  transition: transform 0.4s ease, opacity 0.4s ease, width 0.4s ease, height 0.4s ease;
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+  }
+}
+
+.image-layer.active {
+  z-index: 10;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  width: 1067px;
+  height: 663px;
+  position: relative;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    display: block;
+    opacity: 1;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+.image-layer.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background: rgba(0, 0, 0, 0.3); // adjust opacity as needed
+  border-radius: 16px;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(184, 184, 184, 0.45) 0%, rgba(0, 0, 0, 0.86) 64.42%);
+
+}
+
+.overlay-success {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  z-index: 1000;
+  padding: 20px;
+  // background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    padding: 15px;
+    left: 0;
+    width: calc(100% - 30px);
+  }
+
+  .title-slider {
+    margin-bottom: 0.5rem;
+    font-family: 'Plus Jakarta Sans';
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0%;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+.text-slider{
+  font-family: 'Plus Jakarta Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 266px;
+height: 60px;
+top: 4889px;
+left: 240px;
+border-radius: 999px;
+padding-top: 20px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-left: 30px;
+gap: 10px;
+border-width: 1px;
+border: 1px solid white;
+color: #fff;
+cursor: pointer;
+background: transparent;
+margin-top: 20px;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: 200px;
+      height: 45px;
+      padding: 15px 20px;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+  }
+}
+
+.dot-nav {
+  display: flex;
+  justify-content: center;
+  position: relative; // Change to relative so it's inside container
+  margin-top: 20px; // Space from image
+  gap: 10px;
+  z-index: 100; // Above border
+
+  // Mobile responsive
+  @media (max-width: 768px) {
+    margin-top: 15px; // Adjust for mobile
+    gap: 8px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #aaa;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    // Mobile responsive
+    @media (max-width: 768px) {
+      width: 10px;
+      height: 10px;
+    }
+
+    &.active {
+      background: linear-gradient(90deg, #005F77 0%, #018699 100%);
+    }
+  }
+}
+@media (max-width: 1199px) {
+
+  .main-div-success {
+  margin-bottom: 60px;
+}
+  .success-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 05px;
+
+    h2 {
+      font-size: 36px;
+      line-height: 44px;
+      margin-bottom: 0;
+    }
+
+    .right-side-box {
+      flex-direction: column;
+      gap: 12px;
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        height: auto;
+        margin-bottom: 0;
+      }
+
+      .primary-cta {
+        width: fit-content;
+      }
+    }
+  }
+
+   .image-stack-wrapper {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  .image-layer {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+    display: none;
+    transition: opacity 0.4s ease;
+  }
+  .image-layer.active {
+    opacity: 1;
+    z-index: 10;
+    display: block;
+  }
+
+  .overlay-success {
+    padding: 20px;
+    bottom: 90px;
+
+    .title-slider {
+      font-size: 20px;
+    }
+
+    .text-slider {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    button {
+      width: 100%;
+    }}
+
+  .dot-nav {
+    display: flex;
+    justify-content: center;
+    position: relative; // Change to relative
+    margin-top: 16px; // Space from image
+    gap: 8px;
+  }
+}

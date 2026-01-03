@@ -1,0 +1,91 @@
+.group-wrapper {
+  height: 433px;
+  left: 167px;
+  position: absolute;
+  top: 532px;
+  width: 1032px;
+}
+
+.group-wrapper .group-2 {
+  height: 433px;
+  position: relative;
+}
+
+.group-wrapper .rectangle-wrapper {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-18-4.png) 50%
+    50% / cover,
+    linear-gradient(0deg, rgba(0, 93, 154, 0.1) 0%, rgba(0, 93, 154, 0.1) 100%);
+  border-radius: 28.4px;
+  height: 433px;
+  left: 607px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.group-wrapper .rectangle {
+  height: 433px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 425px;
+}
+
+.group-wrapper .group-3 {
+  height: 272px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 519px;
+}
+
+.group-wrapper .group-4 {
+  height: 272px;
+  position: relative;
+  width: 523px;
+}
+
+.group-wrapper .overlap-group-3 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 521px;
+}
+
+.group-wrapper .text-wrapper-9 {
+  color: #000000;
+  font-family: "Tiro Kannada", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.group-wrapper .img {
+  height: 4px;
+  left: 3px;
+  position: absolute;
+  top: 70px;
+  width: 518px;
+}
+
+.group-wrapper .text-wrapper-10 {
+  color: #000000c4;
+  font-family: "Poppins", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 112px;
+  width: 476px;
+}

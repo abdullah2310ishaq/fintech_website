@@ -1,0 +1,33 @@
+:root {
+  --body-m-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-m-font-size: 16px;
+  --body-m-font-style: normal;
+  --body-m-font-weight: 400;
+  --body-m-letter-spacing: 0px;
+  --body-m-line-height: 30px;
+  --button-font-family: "Plus Jakarta Sans", Helvetica;
+  --button-font-size: 14px;
+  --button-font-style: normal;
+  --button-font-weight: 600;
+  --button-letter-spacing: 0px;
+  --button-line-height: 30px;
+  --dark: rgba(33, 33, 33, 1);
+  --heading-h3-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h3-font-size: 22px;
+  --heading-h3-font-style: normal;
+  --heading-h3-font-weight: 700;
+  --heading-h3-letter-spacing: 0px;
+  --heading-h3-line-height: 30px;
+  --heading-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h4-font-size: 18px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 600;
+  --heading-h4-letter-spacing: 0px;
+  --heading-h4-line-height: 28px;
+  --home-p: rgba(131, 205, 32, 1);
+  --white: rgba(255, 255, 255, 1);
+  --x-200: rgba(227, 219, 216, 1);
+  --x-800: rgba(114, 114, 114, 1);
+    --radial: 0px 0px 45px 35px rgba(0, 0, 0, 0.09);
+  --white: rgba(255, 255, 255, 1);
+}

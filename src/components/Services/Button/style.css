@@ -1,0 +1,34 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+  padding: 21px 30px;
+  position: relative;
+  width: 167px;
+}
+
+.button .text-wrapper-21 {
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -5.50px;
+  margin-top: -7.50px;
+  position: relative;
+  width: fit-content;
+}
+
+.button.default {
+  background-color: #005c9a;
+}
+
+.button.variant-2 {
+  background-color: #0a0118;
+}

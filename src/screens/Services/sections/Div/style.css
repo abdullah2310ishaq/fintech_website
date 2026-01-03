@@ -1,0 +1,161 @@
+.div {
+  height: 311px;
+  left: 102px;
+  position: absolute;
+  top: 1130px;
+  width: 1483px;
+}
+
+.div .frame-6 {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-18-4.png) 50%
+    50% / cover,
+    linear-gradient(0deg, rgba(0, 93, 154, 0.1) 0%, rgba(0, 93, 154, 0.1) 100%);
+  border-radius: 28.4px;
+  height: 192px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.div .group-15 {
+  height: 60px;
+  left: 40px;
+  position: relative;
+  top: 66px;
+  transform: rotate(180deg);
+  width: 62px;
+}
+
+.div .overlap-group-8 {
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+
+.div .ellipse-2 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 60px;
+}
+
+.div .text-wrapper-17 {
+  color: #ffffff;
+  font-family: "Font Awesome 6 Free-Solid", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.div .frame-7 {
+  background: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-21.png) 50%
+    50% / cover;
+  border-radius: 28.4px;
+  height: 192px;
+  left: 1209px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 274px;
+}
+
+.div .group-16 {
+  height: 60px;
+  left: 35px;
+  position: relative;
+  top: 65px;
+  transform: rotate(180deg);
+  width: 62px;
+}
+
+.div .frame-8 {
+  background-image: url(https://c.animaapp.com/mbg4scy3uUUftI/img/frame-1000008399.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 28.4px;
+  height: 190px;
+  left: 312px;
+  position: absolute;
+  top: 26px;
+  width: 274px;
+}
+
+.div .frame-9 {
+  background-color: #005c9a1a;
+  border-radius: 28.4px;
+  height: 190px;
+  left: 897px;
+  overflow: hidden;
+  position: absolute;
+  top: 26px;
+  transform: rotate(180deg);
+  width: 274px;
+}
+
+.div .rectangle-3 {
+  height: 190px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 274px;
+}
+
+.div .rectangle-4 {
+  background-image: url(https://c.animaapp.com/mbg4scy3uUUftI/img/rectangle-5332.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 292px;
+  left: 624px;
+  position: absolute;
+  top: 19px;
+  width: 235px;
+}
+
+.div .overlap-3 {
+  background-color: #000000b8;
+  border-radius: 20px;
+  height: 292px;
+}
+
+.div .frame-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 25px;
+  position: relative;
+  top: 175px;
+  width: 151px;
+}
+
+.div .text-wrapper-18 {
+  align-self: stretch;
+  color: var(--white);
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.div .line-5 {
+  height: 4px;
+  margin-bottom: -2.00px;
+  margin-left: -2.00px;
+  position: relative;
+  width: 135px;
+}
