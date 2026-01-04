@@ -635,7 +635,13 @@
     }
 
     .custom-card {
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+        "title"
+        "image"
+        "description"
+        "button";
       height: auto;
       gap: 20px;
       max-width: 100%;
@@ -644,20 +650,19 @@
       .card-left {
         max-width: 100%;
         text-align: center;
+        display: contents; // Makes children direct grid items
 
         .card-title {
           font-size: 24px;
-        font-weight: 400;
+          font-weight: 400;
           color: #000;
           margin-bottom: 12px;
-        font-family: "Tiro Kannada", serif;
+          font-family: "Tiro Kannada", serif;
+          grid-area: title; // First: Heading
         }
 
         .card-divider {
-          width: 60px;
-          height: 3px;
-          background-color: #02879a;
-          margin: 0 auto 16px;
+          display: none; // Hide divider in mobile
         }
 
         .card-description {
@@ -666,6 +671,7 @@
           line-height: 1.5;
           margin-bottom: 16px;
           font-family: "Poppins", sans-serif;
+          grid-area: description; // Third: Description
         }
 
         .card-button {
@@ -684,6 +690,7 @@
           display: inline-flex;
           align-items: center;
           justify-content: center;
+          grid-area: button; // Fourth: Button
 
           &:hover {
             background-color: #000;
@@ -694,6 +701,7 @@
       .card-right {
         flex-shrink: 0;
         width: 100%;
+        grid-area: image; // Second: Image
 
         img {
           width: 100%;

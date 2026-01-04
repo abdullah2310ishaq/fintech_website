@@ -79,7 +79,7 @@ export const Homepage = (): JSX.Element => {
 
           <div className="group-4">
             <div className="overlap-7">
-              <div className="text-wrapper-42">200+</div>
+              <div className="text-wrapper-42">100+</div>
 
               <div className="text-wrapper-43">Satisfied Customer</div>
             </div>
@@ -87,7 +87,7 @@ export const Homepage = (): JSX.Element => {
 
           <div className="group-5">
             <div className="overlap-7">
-              <div className="text-wrapper-42">200+</div>
+              <div className="text-wrapper-42">100+</div>
 
               <div className="text-wrapper-43">Satisfied Customer</div>
             </div>
@@ -95,7 +95,7 @@ export const Homepage = (): JSX.Element => {
 
           <div className="group-6">
             <div className="overlap-7">
-              <div className="text-wrapper-42">200+</div>
+              <div className="text-wrapper-42">100+</div>
 
               <div className="text-wrapper-43">Satisfied Customer</div>
             </div>
@@ -103,7 +103,7 @@ export const Homepage = (): JSX.Element => {
 
           <div className="group-7">
             <div className="overlap-7">
-              <div className="text-wrapper-42">200+</div>
+              <div className="text-wrapper-42">100+</div>
 
               <div className="text-wrapper-43">Satisfied Customer</div>
             </div>
@@ -222,7 +222,7 @@ export const Homepage = (): JSX.Element => {
         </div>
 
         <div className="overlap-11">
-          <div className="text-wrapper-50">200+</div>
+          <div className="text-wrapper-50">100+</div>
 
           <div className="text-wrapper-51">Satisfied Customer</div>
         </div>

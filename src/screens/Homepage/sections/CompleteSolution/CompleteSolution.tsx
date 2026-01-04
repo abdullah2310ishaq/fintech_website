@@ -50,7 +50,7 @@ export const CompleteSolution = (): JSX.Element => {
             <div className="ellipse-9" />
           </div>
           <div className="overlap-11">
-            <div className="text-wrapper-50">200+</div>
+            <div className="text-wrapper-50">100+</div>
             <div className="text-wrapper-51">Satisfied Customer</div>
           </div>
         </div>
