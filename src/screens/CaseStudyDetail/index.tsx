@@ -149,7 +149,7 @@ function CaseStudyDetail() {
         </div>
       </div>
 
-      <Footer />
+      <Footer detailPageSpacing />
     </div>
   );
 }

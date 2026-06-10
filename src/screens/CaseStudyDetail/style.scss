@@ -154,7 +154,8 @@
 .casestudy-detail-div {
   display: flex;
   gap: 30px;
-  padding: 100px 198px;
+  padding: 100px 198px 115px;
+  margin-bottom: 15px;
   border-radius: 90px;
   background-color: #f9f9f9;
   position: relative;
@@ -254,9 +255,9 @@
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 20px;
-    padding: 40px 20px;
+    padding: 40px 20px 55px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px 20px 15px;
 
     .left {
       width: 100%;

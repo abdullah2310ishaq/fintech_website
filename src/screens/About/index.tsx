@@ -209,7 +209,7 @@ function About() {
           <img loading="lazy" src={bg} alt="decor" className="circle-hero-bg" />
           <span>About Us</span>
           <span className="text-below-about">
-            At FinCan Solutions Inc., we help entrepreneurs, developers, and
+            At FinCan Inc., we help entrepreneurs, developers, and
             investors transform business ideas into fundable, lender-ready
             projects. From startups and expansions to real estate and
             construction financing, our goal is to make your vision bankable,
@@ -309,7 +309,7 @@ function About() {
             <div className="founder-description">
               <p>
                 Founded by Adeel Moghal, a seasoned finance professional with
-                over two decades of global banking experience, FinCan Solutions
+                over two decades of global banking experience, FinCan
                 bridges the gap between entrepreneurs and lenders.
               </p>
               <p>

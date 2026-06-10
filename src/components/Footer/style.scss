@@ -42,6 +42,18 @@
     padding: 130px 20px 20px 90px; // was 150px
     margin-top: -100px; // keep original overlap
   }
+
+  .consultancy-wrapper.detail-page {
+    margin-top: -115px;
+    padding: 165px 20px 20px 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .consultancy-wrapper.detail-page {
+    margin-top: -35px;
+    padding: 55px 20px 40px 20px;
+  }
 }
 
 /* ─── Left side ─────────────────────────── */

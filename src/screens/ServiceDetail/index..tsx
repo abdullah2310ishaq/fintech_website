@@ -253,7 +253,7 @@ function ServiceDetail() {
         </>
       )}
 
-      <Footer />
+      <Footer detailPageSpacing />
     </div>
   );
 }

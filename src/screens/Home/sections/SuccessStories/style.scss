@@ -46,21 +46,21 @@
     position: relative;
   }
   h2 {
-    // padding-left: 20px;
     margin: 0 0 8px;
-    font-family: 'Tiro Kannada';
-font-weight: 400;
-font-size: 48px;
-line-height: 54px;
-letter-spacing: 0%;
-text-transform: capitalize;
+    font-family: "Tiro Kannada";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    word-spacing: 0.18em;
+    text-transform: capitalize;
 
-    // Mobile responsive
     @media (max-width: 768px) {
       font-size: 28px;
       line-height: 36px;
-      margin: 0; // Remove margin for better alignment
-      flex: 1; // Take available space
+      word-spacing: 0.14em;
+      margin: 0;
+      flex: 1;
     }
   }
 .blue-text{
@@ -220,16 +220,17 @@ letter-spacing: 0%;
 
   .title-slider {
     margin-bottom: 0.5rem;
-    font-family: 'Plus Jakarta Sans';
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-letter-spacing: 0%;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    word-spacing: 0.12em;
 
-    // Mobile responsive
     @media (max-width: 768px) {
       font-size: 18px;
       line-height: 24px;
+      word-spacing: 0.1em;
     }
   }
 .text-slider{
@@ -275,6 +276,22 @@ margin-top: 20px;
       font-size: 12px;
       margin-top: 15px;
     }
+  }
+}
+
+.success-stories-loader,
+.success-stories-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 40px 20px;
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin: 0;
   }
 }
 

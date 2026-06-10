@@ -15,13 +15,16 @@ import "./style.scss";
 interface FooterProps {
   blueSection?: boolean;
   homeTightSpacing?: boolean; // apply tighter spacing on landing page only
+  detailPageSpacing?: boolean; // more gap before consultancy section on detail pages
 }
 
-function Footer({ blueSection = true, homeTightSpacing = false }: FooterProps) {
+function Footer({ blueSection = true, homeTightSpacing = false, detailPageSpacing = false }: FooterProps) {
   return (
     <div>
       {blueSection && (
-        <div className={`consultancy-wrapper ${homeTightSpacing ? 'home-tight' : ''}`}>
+        <div
+          className={`consultancy-wrapper ${homeTightSpacing ? "home-tight" : ""} ${detailPageSpacing ? "detail-page" : ""}`}
+        >
           <div className="consultancy-left">
             <h2 className="title">Contact us For <span className="blue-text">Expert Financial Advisory</span></h2>
             <p className="subtitle">

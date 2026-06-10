@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "generate-favicon": "node scripts/generate-favicon.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.15",
@@ -28,6 +29,8 @@
     "@vitejs/plugin-react": "4.3.4",
     "esbuild": "0.24.0",
     "globals": "15.12.0",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.35.0",
     "vite": "6.0.4"
   }
 }

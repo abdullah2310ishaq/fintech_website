@@ -23,7 +23,7 @@ function ProvidingRights() {
               </div>
             </div>
             <div className="detail">
-              At FinCan Solutions Inc., we help entrepreneurs, developers, and
+              At FinCan Inc., we help entrepreneurs, developers, and
               investors transform business ideas into fundable, lender-ready
               projects. From startups and expansions to real estate and
               construction financing, our goal is to make your vision bankable,

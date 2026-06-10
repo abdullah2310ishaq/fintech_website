@@ -249,7 +249,7 @@ function CaseStudy() {
           </div>
         </div>
 
-        <Footer />
+        <Footer detailPageSpacing />
       </div>
     </div>
   );

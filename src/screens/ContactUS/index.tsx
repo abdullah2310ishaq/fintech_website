@@ -114,7 +114,7 @@ export default function ContactUs() {
           <h2>Contact us For Expert Financial Advisory</h2>
           <div className="info-description">
             <p>
-              At FinCan Solutions, every conversation begins with understanding your goals. We work with entrepreneurs, investors and business owners across Canada and internationally to build lender-ready, fundable financial outcomes.
+              At FinCan, every conversation begins with understanding your goals. We work with entrepreneurs, investors and business owners across Canada and internationally to build lender-ready, fundable financial outcomes.
             </p>
             <p>
               We can assist you with Business Financing, Commercial Real Estate Funding, Debt & Credit Advisory, Startup Funding, and Investment Planning.
@@ -133,11 +133,11 @@ export default function ContactUs() {
           <h2 className="info-title">
             Get In Touch
             <br />
-            <span className="info-title-fincan">with FinCan Solutions</span>
+            <span className="info-title-fincan">with FinCan</span>
           </h2>
           <div className="info-description">
             <p>
-              At FinCan Solutions, every conversation begins with understanding your goals. We work with entrepreneurs, investors and business owners across Canada and internationally to build lender-ready, fundable financial outcomes.
+              At FinCan, every conversation begins with understanding your goals. We work with entrepreneurs, investors and business owners across Canada and internationally to build lender-ready, fundable financial outcomes.
             </p>
             <p>
               We can assist you with Business Financing, Commercial Real Estate Funding, Debt & Credit Advisory, Startup Funding, and Investment Planning.
