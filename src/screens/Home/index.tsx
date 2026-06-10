@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Header from '../../components/Header'
 import { CompleteSolution } from '../Homepage/sections/CompleteSolution'
 import ProvidingRights from './sections/ProvidingRights'
-import { Testimonial } from '../Homepage/sections/Testimonial'
+// import { Testimonial } from '../Homepage/sections/Testimonial'
 import BestFinancial from './sections/BestFinancial'
 import OurTeam from './sections/OurTeam'
 import SuccessStories from './sections/SuccessStories'
@@ -45,7 +45,7 @@ function Home() {
         <Marquee images={imageArray} speed={12} height="64px" />
         <div className="white-div-container">
           <ProvidingRights/>
-          <Testimonial/>
+          {/* <Testimonial/> */}
           <BestFinancial/>
           <OurTeam/>
           <Bars/>
