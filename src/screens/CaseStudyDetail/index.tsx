@@ -9,12 +9,11 @@ import Header from "../../components/Header";
 // import detail2 from "../../assets/caseStudy/detail2.png";
 // import detail3 from "../../assets/caseStudy/detail3.jpg";
 // import detail4 from "../../assets/caseStudy/detail4.jpg";
-import fb from "../../assets/blog/fb.png";
-import x from "../../assets/blog/x.png";
-import pinterest from "../../assets/blog/pinterest.png";
-import linkedin from "../../assets/blog/in.png";
 import Footer from "../../components/Footer";
+import RichTextContent from "../../components/RichTextContent";
 import bg from "../../assets/common/circle-bg.png";
+
+const IMAGE_SEPARATOR = "[#SEPARATOR TEXT BEFORE IMAGE#]";
 
 interface CaseStudy {
   _id: string;
@@ -80,11 +79,11 @@ function CaseStudyDetail() {
     );
   }
 
-  const { title, createdAt, detailedDescription, subImages = [] } = study;
+  const { createdAt, detailedDescription, subImages = [] } = study;
 
-  const [beforeText, afterText] = (detailedDescription || "").split(
-    "[#SEPARATOR TEXT BEFORE IMAGE#]"
-  );
+  const [beforeText = "", afterText = ""] = (
+    detailedDescription || ""
+  ).split(IMAGE_SEPARATOR);
 
   return (
     <div>
@@ -129,47 +128,23 @@ function CaseStudyDetail() {
           </span>
         </div>
         <div className="right">
-          <p>{beforeText?.trim()}</p>
+          <div className="case-study-content">
+            {beforeText.trim() && <RichTextContent html={beforeText} />}
 
-          {subImages.length > 0 && (
-            <div className="image-grid">
-              {subImages.map((imgUrl, idx) => (
-                <img loading="lazy" key={idx} src={imgUrl} alt={`detail-${idx}`} />
-              ))}
-            </div>
-          )}
+            {subImages.length > 0 && (
+              <div className="image-grid">
+                {subImages.map((imgUrl, idx) => (
+                  <img
+                    loading="lazy"
+                    key={idx}
+                    src={imgUrl}
+                    alt={`detail-${idx}`}
+                  />
+                ))}
+              </div>
+            )}
 
-          {afterText && <p>{afterText?.trim()}</p>}
-
-          <div className="text-card-box">
-            {/* <img loading="lazy" src="" alt="" /> */}
-            <div className="quote-circle"> &ldquo;</div>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat .
-            </span>
-            <div className="describe">
-              <span className="author">Stanio lainto</span> <br />
-              <span className="dummy">Authore</span>
-            </div>
-          </div>
-
-          <div className="tabs-div">
-            <div className="tabs-left">
-              <div className="tab">Tab 1</div>
-              <div className="tab">Tab 2</div>
-              <div className="tab">Tab 3</div>
-            </div>
-            <div className="tabs-right">
-              <img loading="lazy" src={fb} alt="Facebook" />
-              <img loading="lazy" src={x} alt="X" />
-              <img loading="lazy" src={pinterest} alt="Pinterest" />
-              <img loading="lazy" src={linkedin} alt="LinkedIn" />
-            </div>
+            {afterText.trim() && <RichTextContent html={afterText} />}
           </div>
         </div>
       </div>

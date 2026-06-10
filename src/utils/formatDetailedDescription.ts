@@ -56,7 +56,18 @@ function plainTextToHtml(text: string): string {
   return parts.join("");
 }
 
+function normalizeBoldMarkup(html: string): string {
+  return html
+    .replace(/<b(\s[^>]*)?>/gi, "<strong$1>")
+    .replace(/<\/b>/gi, "</strong>")
+    .replace(
+      /<span[^>]*style="[^"]*font-weight:\s*(?:bold|700|600)[^"]*"[^>]*>([\s\S]*?)<\/span>/gi,
+      "<strong>$1</strong>"
+    );
+}
+
 export function getDetailedDescriptionHtml(text?: string): string {
   if (!text) return "";
-  return isHtmlContent(text) ? text : plainTextToHtml(text);
+  const html = isHtmlContent(text) ? text : plainTextToHtml(text);
+  return normalizeBoldMarkup(html);
 }

@@ -108,13 +108,21 @@
         }
       }
 
-      strong {
-        font-weight: 600;
+      strong,
+      b {
+        font-family: inherit;
+        font-weight: 700 !important;
         color: #2e2e2e;
       }
 
-      em {
+      em,
+      i {
         font-style: italic;
+      }
+
+      span[style*="font-weight"] {
+        font-weight: 700 !important;
+        color: #2e2e2e;
       }
 
       ul {
@@ -137,8 +145,9 @@
           font-size: 18px;
         }
 
-        strong {
-          font-weight: 600;
+        strong,
+        b {
+          font-weight: 700 !important;
           color: #2e2e2e;
         }
       }
@@ -164,8 +173,9 @@
           font-size: 18px;
         }
 
-        strong {
-          font-weight: 600;
+        strong,
+        b {
+          font-weight: 700 !important;
           color: #2e2e2e;
         }
       }

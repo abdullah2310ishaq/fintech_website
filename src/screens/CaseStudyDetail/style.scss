@@ -178,6 +178,56 @@
     flex-direction: column;
     gap: 20px;
 
+    .case-study-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .rich-text-content {
+        p {
+          font-family: "Poppins";
+          font-size: 16px;
+          line-height: 1.6;
+          color: #444;
+          margin: 0 0 0.75rem;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        strong,
+        b {
+          font-weight: 700 !important;
+          color: #222;
+        }
+
+        em,
+        i {
+          font-style: italic;
+        }
+
+        span[style*="font-weight"] {
+          font-weight: 700 !important;
+          color: #222;
+        }
+
+        ul {
+          margin: 0 0 0.75rem 1.25rem;
+          padding: 0;
+          list-style: disc;
+        }
+
+        li {
+          font-family: "Poppins";
+          font-size: 16px;
+          line-height: 1.6;
+          color: #444;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
     p {
       font-family: "Poppins";
       font-size: 16px;
@@ -221,6 +271,15 @@
 
     .right {
       width: 100%;
+
+      .case-study-content .rich-text-content {
+        p,
+        li {
+          font-size: 14px;
+          line-height: 1.5;
+          text-align: justify;
+        }
+      }
 
       p {
         font-size: 14px;
@@ -337,102 +396,6 @@
   }
 }
 
-.tabs-div {
-  margin-top: 50px;
-  min-width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e3dbd8;
-  border-bottom: 1px solid #e3dbd8;
-
-  .tabs-left {
-    display: flex;
-    gap: 20px;
-
-    .tab {
-      border-radius: 8px;
-      font-weight: 500;
-      background-color: white;
-      cursor: pointer;
-      transition: all 0.2s;
-      width: 85px;
-      height: 40px;
-      border-radius: 20px;
-      padding-top: 5px;
-      padding-right: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      gap: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #5aafff29;
-
-      &:hover {
-        background-color: #eaeaea;
-      }
-    }
-  }
-
-  .tabs-right {
-    display: flex;
-    gap: 15px;
-
-    img {
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      transition: transform 0.2s;
-      padding: 10px;
-      border: 1px solid black;
-      border-radius: 50%;
-      background-color: white;
-      box-sizing: content-box;
-
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
-
-  // Mobile responsive
-  @media (max-width: 768px) {
-    margin-top: 30px;
-    height: auto;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 12px;
-
-    .tabs-left {
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      .tab {
-        width: 70px;
-        height: 35px;
-        font-size: 12px;
-        padding: 8px 12px;
-      }
-    }
-
-    .tabs-right {
-      gap: 10px;
-      justify-content: center;
-
-      img {
-        width: 16px;
-        height: 16px;
-        padding: 8px;
-      }
-    }
-  }
-}
 .loader-overlay {
   position: fixed;
   top: 0;
