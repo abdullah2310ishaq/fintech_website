@@ -99,6 +99,51 @@
     letter-spacing: 0%;
     color: #727272;
 
+    .rich-text-content {
+      p {
+        margin: 0 0 0.75rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      strong {
+        font-weight: 600;
+        color: #2e2e2e;
+      }
+
+      em {
+        font-style: italic;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+
+      li {
+        margin-bottom: 12px;
+        padding-left: 20px;
+        position: relative;
+
+        &::before {
+          content: "•";
+          position: absolute;
+          left: 0;
+          color: #02879a;
+          font-weight: bold;
+          font-size: 18px;
+        }
+
+        strong {
+          font-weight: 600;
+          color: #2e2e2e;
+        }
+      }
+    }
+
     // Service bullet list styling
     .service-bullet-list {
       list-style: none;

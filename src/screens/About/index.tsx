@@ -7,7 +7,7 @@ import about1 from "../../assets/about-1.jpg";
 import about2 from "../../assets/about-2.jpg";
 import about3 from "../../assets/about-3.jpg";
 import about4 from "../../assets/about-4.jpg";
-import finWis from "../../assets/financial-wisdom.png";
+import owner from "../../assets/owner.jpeg";
 import ethics1 from "../../assets/ethics-1.png";
 
 import Marquee from "../../components/Marquee";
@@ -253,9 +253,8 @@ function About() {
           <div className="img-div">
             <img
               loading="lazy"
-              src={getCloudinaryUrl("v1762205669/fincan/file_isc358.png")}
-              alt="finWis"
-              onError={(e) => ((e.target as HTMLImageElement).src = finWis)}
+              src={owner}
+              alt="Adeel Moghal - Founder"
             />
           </div>
           {/* <div className="content-div">
@@ -366,11 +365,19 @@ function About() {
         </div>
 
         <div className="team-section">
-          <span className="team-section__title">Meet the Team</span>
-          <div className="team-section__description">
-            Our team brings together diverse expertise in finance, insurance,
-            and wealth management to deliver trusted guidance and long-term
-            value.
+          <div className="team-section__header">
+            <span className="team-section__label">Our Team</span>
+            <div className="team-section__heading">
+              <span>Meet the faces </span>
+              <span>
+                Behind <span className="team-section__accent">Fincan Inc.</span>
+              </span>
+            </div>
+            <div className="team-section__description">
+              Our team brings together diverse expertise in finance, insurance,
+              and wealth management to deliver trusted guidance and long-term
+              value.
+            </div>
           </div>
           {loading ? (
             <div className="loader-overlay">

@@ -16,6 +16,7 @@ import { toast } from "react-toastify";
 import Footer from "../../components/Footer";
 import { useParams, useNavigate } from "react-router-dom";
 import { getCloudinaryUrl } from "../../utils/getCloudinaryUrl";
+import RichTextContent from "../../components/RichTextContent";
 import bg from "../../assets/common/circle-bg.png";
 interface TeamMember {
   _id: string;
@@ -63,61 +64,7 @@ function ServiceDetail() {
 
     fetchService();
   }, [baseUrl, id]);
-  function renderDetailedDescription(text?: string) {
-    if (!text) return null;
 
-    // normalize Windows CRLF to LF
-    const normalized = text.replace(/\r\n/g, "\n");
-
-    // split into lines, preserve bullets
-    const lines = normalized
-      .split(/\n+/)
-      .map((line) => line.trim())
-      .filter(Boolean);
-
-    const elements: JSX.Element[] = [];
-    let currentList: JSX.Element[] = [];
-
-    const flushList = () => {
-      if (currentList.length) {
-        elements.push(
-          <ul key={`ul-${elements.length}`} className="service-bullet-list">
-            {currentList}
-          </ul>
-        );
-        currentList = [];
-      }
-    };
-
-    lines.forEach((line, i) => {
-      if (/^[-*]\s*/.test(line)) {
-        // dash/hyphen bullet line → push to current list with bold styling
-        const cleaned = line.replace(/^[-*]\s*/, "").trim();
-        currentList.push(
-          <li key={`li-${i}`} className="service-bullet-item">
-            <strong>{cleaned}</strong>
-          </li>
-        );
-      } else if (/^(?:●|•)\s*/.test(line)) {
-        // other bullet types → push to current list without bold
-        const cleaned = line.replace(/^(?:●|•)\s*/, "").trim();
-        currentList.push(
-          <li key={`li-${i}`} className="service-bullet-item">
-            {cleaned}
-          </li>
-        );
-      } else {
-        // normal paragraph → flush list before it
-        flushList();
-        elements.push(<p key={`p-${i}`}>{line}</p>);
-      }
-    });
-
-    // flush any list left at the end
-    flushList();
-
-    return elements;
-  }
   return (
     <div className="">
       <Header />
@@ -170,7 +117,7 @@ function ServiceDetail() {
               />
               <span className="blog-title-second">{service.title}</span>
               <div className="blog-content">
-                {renderDetailedDescription(service.detailedDescription)}
+                <RichTextContent html={service.detailedDescription} />
               </div>
 
               {/* Commented out - everything after bullet points removed */}
