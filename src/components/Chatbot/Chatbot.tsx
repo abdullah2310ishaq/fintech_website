@@ -10,6 +10,7 @@ import {
   getDynamicSuggestions,
 } from "./getBotResponse";
 import "./style.scss";
+import chatbotLogo from "../../assets/Logo2.jpg";
 
 type ChatStep = "name" | "phone" | "chat" | "ended";
 
@@ -196,7 +197,9 @@ export default function Chatbot() {
         <div className="fincan-chatbot__panel" role="dialog" aria-label="FinCan chat assistant">
           <header className="fincan-chatbot__header">
             <div className="fincan-chatbot__header-info">
-              <div className="fincan-chatbot__avatar">F</div>
+              <div className="fincan-chatbot__avatar">
+                <img src={chatbotLogo} alt="FinCan logo" />
+              </div>
               <div>
                 <h3>FinCan Assistant</h3>
                 <span>Online · Offline help</span>

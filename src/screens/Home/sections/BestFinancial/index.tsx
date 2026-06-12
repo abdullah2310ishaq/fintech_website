@@ -100,11 +100,6 @@ export default function BestFinancial() {
       <div className="best-upper-part-div">
         <div className="best-heading-div">
           <div className="service-heading">Services</div>
-
-          <div className="best-financial-heading">
-            <span>Best Financial</span>
-            <span>Consultant Services</span>
-          </div>
         </div>
 
         {/* Arrows container */}

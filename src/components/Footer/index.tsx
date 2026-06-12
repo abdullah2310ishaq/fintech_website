@@ -123,6 +123,12 @@ function Footer({ blueSection = true, homeTightSpacing = false, detailPageSpacin
         </div>
 
         <hr className="footer-divider" />
+        <p className="footer-disclaimer">
+          FinCan Solutions provides financial and management consulting services. We
+          are not a licensed mortgage broker, insurance advisor, investment advisor,
+          or financial planner. Financing approvals are subject to lender review,
+          underwriting, and approval.
+        </p>
       </div>
     </div>
   );

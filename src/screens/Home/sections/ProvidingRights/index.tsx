@@ -1,5 +1,6 @@
-import React from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../../../Homepage/sections/CompleteSolution/style.scss";
 import "./style.scss";
 import img1 from "../../../../assets/aboutUs/img1.png";
 import img2 from "../../../../assets/aboutUs/img2.jpeg";
@@ -7,47 +8,74 @@ import img3 from "../../../../assets/aboutUs/img3.jpeg";
 
 function ProvidingRights() {
   const navigate = useNavigate();
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [img1, img2, img3];
+
   return (
     <div className="providing-rights-container">
       <div className="curved-about-wrapper">
-        <div className="mainProviding">
-          <div className="left-side">
-            <div className="section-title">About Us</div>
-            <div>
-              <div className="heading-providing">
-                We Help You Prepare, Structure, and Present Your{" "}
-                <span className="blue-text">Business Financing Request</span>
+        <div className="main-div-complete about-section">
+          <div className="left-content">
+            <div className="left-box-content-div">
+              <div className="about-section-label">About Us</div>
+              <p className="complete-solution">
+                <span className="text-wrapper-31">
+                  Financial Consulting That Turns Business Goals into{" "}
+                </span>
+                <span className="text-wrapper-32">Clear Action Plans</span>
+              </p>
+              <div className="text-hero">
+                <p>
+                  FinCan Solutions was created to help business owners make
+                  better financial decisions and present stronger business
+                  financing requests. We understand that many entrepreneurs have
+                  strong opportunities, but they often need help organizing the
+                  numbers, explaining the transaction, and preparing a
+                  professional package that lenders and decision-makers can
+                  clearly understand.
+                </p>
+                <p>
+                  We support clients with business plans, financial projections,
+                  loan proposals, refinancing packages, acquisition financing
+                  support, real estate project summaries, construction financing
+                  packages, and practical management consulting.
+                </p>
+                <p>
+                  Our approach is practical and direct. We focus on the
+                  business, the numbers, the risks, the strengths, and the
+                  structure required to move the transaction forward with
+                  confidence.
+                </p>
+              </div>
+              <div className="schedule" onClick={() => navigate(`/about`)}>
+                Explore More
               </div>
             </div>
-            <div className="detail">
-              <p>
-                Many strong business opportunities do not move forward because
-                the financing request is not presented properly. The numbers may
-                be unclear, the business plan may be weak, or the lender package
-                may not explain the transaction in the right way.
-              </p>
-              <p>
-                FinCan helps close that gap. We work with business owners to
-                prepare professional business plans, financial projections, loan
-                proposals, refinancing packages, and practical advisory support
-                so the transaction is easier to understand and stronger to
-                present.
-              </p>
+          </div>
+
+          <div className="right-slider">
+            <div className="slider">
+              {images.map((img, index) => (
+                <img
+                  loading="lazy"
+                  key={index}
+                  src={img}
+                  alt={`About us slide ${index + 1}`}
+                  className={`slide ${currentIndex === index ? "active" : ""}`}
+                />
+              ))}
             </div>
-            <div
-              className="explore-more-team"
-              onClick={() => navigate(`/about`)}
-            >
-              Explore More
+            <div className="dots">
+              {images.map((_, index) => (
+                <span
+                  key={index}
+                  className={`dot ${currentIndex === index ? "active" : ""}`}
+                  onClick={() => setCurrentIndex(index)}
+                />
+              ))}
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="image-slider">
-        <img loading="lazy" src={img1} alt="Slider 1" />
-        <img loading="lazy" src={img2} alt="Slider 2" />
-        <img loading="lazy" src={img3} alt="Slider 3" />
       </div>
     </div>
   );

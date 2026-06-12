@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./style.scss";
 import Header from "../../components/Header";
-import blog1 from "../../assets/blog/blog-1.jpg";
+import blog1 from "../../assets/blog/blog-1.png";
 import * as FaIcons from "react-icons/fa";
 import { Oval } from "react-loader-spinner";
 import { toast } from "react-toastify";
@@ -10,7 +10,6 @@ import case1 from "../../assets/caseStudy/case1.jpg";
 import case2 from "../../assets/caseStudy/case2.jpg";
 import case3 from "../../assets/caseStudy/case3.jpg";
 import Footer from "../../components/Footer";
-import { getCloudinaryUrl } from "../../utils/getCloudinaryUrl";
 import bg from "../../assets/common/circle-bg.png";
 interface CaseStudy {
   _id: string;
@@ -153,12 +152,7 @@ function CaseStudy() {
       </div>
 
       <div className="blog-img-main">
-        <img
-          loading="lazy"
-          src={getCloudinaryUrl("blog-1_uiuvjq.JPG")}
-          alt="blog1"
-          onError={(e) => ((e.target as HTMLImageElement).src = blog1)}
-        />
+        <img loading="lazy" src={blog1} alt="blog1" />
       </div>
 
       <div className="main-block">

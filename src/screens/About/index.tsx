@@ -208,16 +208,29 @@ function About() {
         <div className="left-side">
           <img loading="lazy" src={bg} alt="decor" className="circle-hero-bg" />
           <span>About Us</span>
-          <span className="text-below-about">
-            At FinCan Inc., we help entrepreneurs, developers, and
-            investors transform business ideas into fundable, lender-ready
-            projects. From startups and expansions to real estate and
-            construction financing, our goal is to make your vision bankable,
-            sustainable, and lender-approved. With global banking experience
-            spanning the Middle East, Europe, and North America, we bring an
-            international perspective to local financing — combining financial
-            acumen, industry insight, and strong institutional relationships.
-          </span>
+          <div className="text-below-about">
+            <p>
+              <strong>What We Do?</strong> We help entrepreneurs, developers,
+              investors, and business owners prepare clear, structured, and
+              lender-ready financing packages. Our focus is on turning complex
+              financing requests into professional presentations that are easier
+              for lenders and stakeholders to understand and evaluate.
+            </p>
+            <p>
+              <strong>Who We Help?</strong> We work with entrepreneurs launching
+              new ventures, business owners pursuing growth, franchise buyers
+              seeking financing, developers managing real estate projects, and
+              investors evaluating acquisition opportunities. Our services are
+              tailored to support important business and financing decisions.
+            </p>
+            <p>
+              <strong>What We Help With?</strong> Our support includes business
+              plans, financial projections, loan proposals, refinancing packages,
+              acquisition financing support, and practical financial consulting. We
+              help organize the numbers, strengthen the business case, and present
+              opportunities with greater clarity and confidence.
+            </p>
+          </div>
           <div className="schedule-btn" onClick={() => navigate(`/contactus`)}>
             Schedule a consultation
           </div>

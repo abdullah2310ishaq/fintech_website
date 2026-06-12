@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style.scss";
 import Header from "../../components/Header";
-import blog1 from "../../assets/blog/blog-1.jpg";
+import blog1 from "../../assets/blog/blog-1.png";
 import blog3 from "../../assets/blog/blog-3.jpg";
 import blog4 from "../../assets/blog/blog-4.jpg";
 
@@ -97,12 +97,7 @@ function ServiceDetail() {
           </div>
 
           <div className="blog-img-main-1">
-            <img
-              loading="lazy"
-              src={getCloudinaryUrl("blog-1_uiuvjq.jpg")}
-              alt="blog1"
-              onError={(e) => ((e.target as HTMLImageElement).src = blog1)}
-            />
+            <img loading="lazy" src={blog1} alt="blog1" />
           </div>
 
           <div className="main-block">
@@ -265,7 +260,7 @@ export default ServiceDetail;
 // import React, { useEffect, useState } from "react";
 // import "./style.scss";
 // import Header from "../../components/Header";
-// import blog1 from "../../assets/blog/blog-1.jpg";
+// import blog1 from "../../assets/blog/blog-1.png";
 // import blog2 from "../../assets/blog/blog-2.jpg";
 // import blog3 from "../../assets/blog/blog-3.jpg";
 // import blog4 from "../../assets/blog/blog-4.jpg";
@@ -576,7 +571,7 @@ export default ServiceDetail;
 // import React from "react";
 // import "./style.scss";
 // import Header from "../../components/Header";
-// import blog1 from "../../assets/blog/blog-1.jpg";
+// import blog1 from "../../assets/blog/blog-1.png";
 // import blog2 from "../../assets/blog/blog-2.jpg";
 // import blog3 from "../../assets/blog/blog-3.jpg";
 // import blog4 from "../../assets/blog/blog-4.jpg";
