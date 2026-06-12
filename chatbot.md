@@ -119,7 +119,7 @@ Meet Our Founder
 
 Founded by Adeel Moghal, a seasoned finance professional with over two decades of global banking experience, FinCan bridges the gap between entrepreneurs and lenders.
 
-Before establishing FinCan, Adeel worked with leading financial institutions in Dubai, Saudi Arabia, Europe, and Canada, managing complex commercial and corporate portfolios across industries including construction, real estate development, logistics, manufacturing, and international trade.
+Before establishing FinCan, Adeel worked with leading financial institutions in Dubai,  Europe, and Canada, managing complex commercial and corporate portfolios across industries including construction, real estate development, logistics, manufacturing, and international trade.
 
 Today, FinCan applies that global expertise to help Canadian businesses structure deals that meet both local lending standards and international best practices.
 

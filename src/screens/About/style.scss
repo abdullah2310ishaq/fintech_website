@@ -43,7 +43,7 @@ html {
     flex-direction: column;
     justify-content: center;
     gap: 24px; // restore original spacing
-    padding-left: 80px;
+    padding-left: 100px;
 
     // removed per request - circle belongs below entire hero, not under text
 
@@ -592,13 +592,15 @@ html {
   padding: 131px 120px;
   background: linear-gradient(90deg, #005f77 0%, #018699 100%);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 120px;
 
   .fact {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 1 220px;
     color: white;
     text-align: center;
 
@@ -630,14 +632,14 @@ html {
   .container-facts {
     width: 100%;
     height: auto;
-    padding: 40px 10px;
+    padding: 40px 16px;
     background: linear-gradient(90deg, #005f77 0%, #018699 100%);
     display: flex;
-    flex-direction: row; // Keep in single row
-    justify-content: space-between;
-    align-items: flex-start; // Changed to flex-start to align all at top
-    gap: 10px;
-    overflow-x: auto; // Allow horizontal scroll if needed
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    overflow-x: auto;
 
     .fact {
       display: flex;

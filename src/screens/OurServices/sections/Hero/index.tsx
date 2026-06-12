@@ -208,7 +208,7 @@ function Hero() {
             <h2 className="hero-title">Our Services</h2>
             <p className="hero-subtext hero-subtext-desktop">
               Explore Our Expertise in Personal Financial Planning, Business
-              Financing, Retirement, Debt Management, and More.
+              Financing, Debt Management, and More.
             </p>
           </div>
         </div>

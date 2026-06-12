@@ -7,7 +7,7 @@ import about1 from "../../assets/about-1.jpg";
 import about2 from "../../assets/about-2.jpg";
 import about3 from "../../assets/about-3.jpg";
 import about4 from "../../assets/about-4.jpg";
-import owner from "../../assets/owner.jpeg";
+import owner from "../../assets/owner.png";
 import ethics1 from "../../assets/ethics-1.png";
 
 import Marquee from "../../components/Marquee";
@@ -314,7 +314,7 @@ function About() {
               </p>
               <p>
                 Before establishing FinCan, Adeel worked with leading financial
-                institutions in Dubai, Saudi Arabia, Europe, and Canada,
+                institutions in Dubai, Europe, and Canada,
                 managing complex commercial and corporate portfolios across
                 industries including construction, real estate development,
                 logistics, manufacturing, and international trade.
@@ -348,20 +348,6 @@ function About() {
             </div>
             <div className="fact-text">Client Rentention Rate</div>
           </div>
-          <div className="fact">
-            <div className="fact-number">
-              <AnimatedCounter to={30} suffix="+" />
-            </div>
-            <div className="fact-text">Industries Served</div>
-          </div>
-
-          {/* 🔻 Previous static version (commented out for backup) */}
-          {/*
-  <div className="fact-number">20+</div>
-  <div className="fact-number">100+</div>
-  <div className="fact-number">100%</div>
-  <div className="fact-number">30+</div>
-  */}
         </div>
 
         <div className="team-section">

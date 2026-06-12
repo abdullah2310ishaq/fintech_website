@@ -145,9 +145,7 @@ function CaseStudy() {
           <span className="title-part2">Consultancy</span>
         </span>
         <span className="blog-subtitle">
-          Guiding Your Financial Journey with Tailored Insurance, Retirement
-          Planning, and Wealth-Building Strategies for Lifelong Security and
-          Peace of Mind
+        Guiding Your Business Journey with Practical Financial Consulting, Management Support, and Strategic Advisory Solutions for Long-Term Stability and Growth.
         </span>
         <div className="schedule-btn" onClick={() => navigate(`/contactus`)}>
           Schedule a consultation
@@ -199,10 +197,6 @@ function CaseStudy() {
                       alt={p.title}
                       className="post-img"
                     />
-                    <div className="meta-row">
-                      <span>Admin</span>
-                      <span>{new Date(p.createdAt).toLocaleDateString()}</span>
-                    </div>
                     <h3 className="post-title">{p.title}</h3>
                     <p className="post-desc">{p.description}</p>
                     <button

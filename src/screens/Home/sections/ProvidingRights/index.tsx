@@ -4,7 +4,6 @@ import "./style.scss";
 import img1 from "../../../../assets/aboutUs/img1.png";
 import img2 from "../../../../assets/aboutUs/img2.jpeg";
 import img3 from "../../../../assets/aboutUs/img3.jpeg";
-import AnimatedCounter from "../../../../components/AnimatedCounter";
 
 function ProvidingRights() {
   const navigate = useNavigate();
@@ -13,64 +12,33 @@ function ProvidingRights() {
       <div className="curved-about-wrapper">
         <div className="mainProviding">
           <div className="left-side">
-            <div className="section-title">About us</div>
+            <div className="section-title">About Us</div>
             <div>
               <div className="heading-providing">
-                Providing the <span className="blue-text">Right</span>
-              </div>
-              <div className="heading-providing blue-text">
-                Financial Solution
+                We Help You Prepare, Structure, and Present Your{" "}
+                <span className="blue-text">Business Financing Request</span>
               </div>
             </div>
             <div className="detail">
-              At FinCan Inc., we help entrepreneurs, developers, and
-              investors transform business ideas into fundable, lender-ready
-              projects. From startups and expansions to real estate and
-              construction financing, our goal is to make your vision bankable,
-              sustainable, and lender-approved.
+              <p>
+                Many strong business opportunities do not move forward because
+                the financing request is not presented properly. The numbers may
+                be unclear, the business plan may be weak, or the lender package
+                may not explain the transaction in the right way.
+              </p>
+              <p>
+                FinCan helps close that gap. We work with business owners to
+                prepare professional business plans, financial projections, loan
+                proposals, refinancing packages, and practical advisory support
+                so the transaction is easier to understand and stronger to
+                present.
+              </p>
             </div>
             <div
               className="explore-more-team"
               onClick={() => navigate(`/about`)}
             >
               Explore More
-            </div>
-          </div>
-
-          <div className="right-side">
-            <div className="right-side-grid">
-              <div className="right-side-content-500">
-                <span className="number">
-                  <AnimatedCounter to={100} suffix="+" />
-                </span>
-                <span className="label">Satisfied Customers</span>
-              </div>
-              <div className="right-side-content-500">
-                <span className="number">
-                  <AnimatedCounter to={50} suffix="+" />
-                </span>
-                <span className="label">Projects Completed</span>
-              </div>
-              <div className="right-side-content-500">
-                <span className="number">
-                  <AnimatedCounter to={100} suffix="%" />
-                </span>
-                <span className="label">Client Retention</span>
-              </div>
-              <div className="right-side-content-500">
-                <span className="number">
-                  <AnimatedCounter to={100} suffix="%" />
-                </span>
-                <span className="label">Trust & Reliability</span>
-              </div>
-
-              {/* 🔻 Previous static block (commented for backup) */}
-              {/*
-              <div className="right-side-content-500">
-                <span className="number">500+</span>
-                <span className="label">Satisfied Customers</span>
-              </div>
-              */}
             </div>
           </div>
         </div>

@@ -31,15 +31,20 @@ export const CompleteSolution = (): JSX.Element => {
             <div className="ellipse-6" />
           </div>
           <p className="complete-solution">
-            <span className="text-wrapper-31">Building Bankable </span>
-            <span className="text-wrapper-32">Entrepreneurs</span>
+            <span className="text-wrapper-31">
+              Helping Business Owners Build Stronger,{" "}
+            </span>
+            <span className="text-wrapper-32">
+              Lender-Ready Financing Packages
+            </span>
           </p>
           <p className="text-hero">
-            We craft tailored financial strategies that align your business's
-            growth trajectory with your personal financial security. Leveraging
-            over two decades of global expertise, we cut through complexity to
-            provide the clarity and structure needed to turn ambitious
-            challenges into decisive, bankable solutions.
+            FinCan helps entrepreneurs, developers, investors, and business owners
+            prepare clear, structured, and lender-ready financial packages for
+            business acquisitions, expansions, refinancing, real estate projects,
+            and construction financing. We help organize the numbers, strengthen
+            the business case, and present the transaction with clarity and
+            confidence.
           </p>
           <div className="schedule" onClick={() => navigate(`/contactus`)}>
             Book Your Free Consultation

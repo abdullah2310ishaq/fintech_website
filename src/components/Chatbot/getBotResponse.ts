@@ -193,7 +193,7 @@ function responseForIntent(intent: ChatIntent, ctx: ChatContext): string {
       return `We're open **${FINCAN_HOURS}**. Call **${FINCAN_PHONE}** or book a consultation online — we'll respond promptly!`;
 
     case "location":
-      return `FinCan Inc. is **Canada-based**, serving entrepreneurs nationwide.\n\nOur founder brings **25+ years** of experience from **Dubai, Saudi Arabia, Europe, and North America** — combining global insight with Canadian lending standards.`;
+      return `FinCan Inc. is **Canada-based**, serving entrepreneurs nationwide.\n\nOur founder brings **25+ years** of experience from **Dubai, Europe, and North America** — combining global insight with Canadian lending standards.`;
 
     case "pricing":
       return `Initial consultation is **free**. Every project is unique, so we tailor our approach after understanding your goals — no pressure, no obligation.`;
