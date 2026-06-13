@@ -38,7 +38,7 @@
         padding-top: 0px; // No padding
       }
       .overlap-9 {
-        left: 100px;
+        left: 93px;
         height: 29px;
         position: relative;
         width: 93px;
@@ -128,7 +128,7 @@
       }
       .text-hero {
         position: relative;
-        left: 100px !important;
+        left: 95px !important;
         max-width: 560px;
         width: auto;
         height: auto;
@@ -423,19 +423,21 @@
         left: 0;
       }
 
-      .text-hero,
+      .text-hero {
+        left: 75px !important;
+        margin: 0;
+        text-align: left;
+        width: 100%;
+        max-width: 620px;
+        font-size: 14px;
+        line-height: 22px;
+      }
+
       .schedule,
       .overlap-10,
       .overlap-11 {
         left: 0 !important;
         margin: 0 auto;
-      }
-
-      .text-hero {
-        width: 100%;
-        max-width: 620px;
-        font-size: 14px;
-        line-height: 22px;
       }
 
       .schedule {
