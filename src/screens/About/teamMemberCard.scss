@@ -39,7 +39,7 @@
   }
 
   &__name {
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 0;
@@ -48,7 +48,7 @@
   }
 
   &__designation {
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     color: #888;
     margin: 4px 0;
@@ -67,7 +67,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
   &__socials {
@@ -190,7 +190,7 @@
   &__name {
     font-size: 28px;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     margin: 0 0 10px 0;
     color: #333;
     text-align: center;
@@ -201,7 +201,7 @@
     color: #018699;
     margin: 0 0 20px 0;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
   }
 
@@ -217,7 +217,7 @@
     line-height: 1.8;
     margin: 0;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
   &__bio {
@@ -226,7 +226,7 @@
       margin: 0 0 10px 0;
       color: #018699;
       font-weight: 700;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       text-align: left;
     }
 
@@ -236,7 +236,7 @@
       line-height: 1.8;
       margin: 0;
       text-align: left;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
   }
 
@@ -263,7 +263,7 @@
     font-size: 16px;
     min-width: 100px;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
   &__info-value {
@@ -271,7 +271,7 @@
     font-size: 16px;
     text-align: left;
     flex: 1;
-    font-family: "Poppins", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
   &__socials {
@@ -334,19 +334,19 @@
 
 //     &__name {
 //       font-size: 22px;
-//       font-family: "Tiro Kannada", serif;
+//       font-family: "IBM Plex Sans", sans-serif;
 //       font-weight: 700;
 //     }
 
 //     &__role {
 //       font-size: 15px;
-//       font-family: "Tiro Kannada", serif;
+//       font-family: "IBM Plex Sans", sans-serif;
 //       font-weight: 700;
 //     }
 
 //     &__bio {
 //       h4 {
-//         font-family: "Tiro Kannada", serif;
+//         font-family: "IBM Plex Sans", sans-serif;
 //         font-weight: 700;
 //         color: #018699;
 //       }
@@ -567,32 +567,32 @@
 
     &__name {
       font-size: 24px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__role {
       font-size: 16px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__description {
       font-size: 14px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__bio {
       h4 {
         font-size: 16px;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         color: #018699;
       }
 
       p {
         font-size: 14px;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
       }
     }
 
@@ -604,12 +604,12 @@
     &__info-label {
       font-size: 14px;
       min-width: 80px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__info-value {
       font-size: 14px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
   }
 }
@@ -650,20 +650,20 @@
     &__name {
       font-size: 19px;
       margin-bottom: 6px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__role {
       font-size: 14px;
       margin-bottom: 12px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__bio {
       h4 {
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         color: #018699;
       }
@@ -672,19 +672,19 @@
     &__description {
       font-size: 13px;
       line-height: 1.5;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__bio {
       h4 {
         font-size: 15px;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
       }
 
       p {
         font-size: 13px;
         line-height: 1.5;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
       }
     }
 
@@ -705,7 +705,7 @@
       min-width: 75px;
       font-weight: 700;
       text-align: left;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__info-value {
@@ -713,7 +713,7 @@
       padding-left: 0;
       text-align: left;
       flex: 1;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__socials {
@@ -804,19 +804,19 @@
 
     &__name {
       font-size: 18px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__role {
       font-size: 13px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
     }
 
     &__bio {
       h4 {
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         color: #018699;
       }
@@ -826,7 +826,7 @@
     &__bio p {
       font-size: 12px;
       line-height: 1.4;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__contact-info {
@@ -836,12 +836,12 @@
     &__info-label {
       font-size: 12px;
       min-width: 70px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__info-value {
       font-size: 12px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
     }
 
     &__close {

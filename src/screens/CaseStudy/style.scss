@@ -4,7 +4,7 @@
   align-items: center;
   gap: 20px;
   .blog-title {
-    font-family: "Tiro Kannada";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 73px;
@@ -13,7 +13,7 @@
     padding-top: 30px;
   }
   .blog-subtitle {
-    font-family: "Poppins";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -34,7 +34,7 @@
     padding-bottom: 21px;
     padding-left: 30px;
     background: #005d9a;
-    font-family: "Poppins";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 100%;
@@ -90,13 +90,13 @@
       // Split the title for different colors
       .title-part1 {
         color: #000000;
-        font-family: "Tiro Kannada";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
       }
       
       .title-part2 {
         color: #02879A;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
       }
     }
@@ -338,7 +338,7 @@
         gap: 30px;
         font-size: 14px;
         color: #777;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         span {
           display: flex;
           align-items: center;
@@ -356,14 +356,14 @@
         font-weight: 700;
         color: #222;
         margin: 0;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
       }
 
       .post-desc {
         font-size: 16px;
         color: #555;
         line-height: 1.6;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
       }
 
       .read-more {
@@ -375,7 +375,7 @@
         border-radius: 6px;
         cursor: pointer;
         transition: background 0.2s;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         width: 159px;
         height: 60px;
         border-radius: 999px;
@@ -483,7 +483,7 @@
         padding-left: 4px;
         border-bottom: 1px solid #e3dbd8;
         padding-bottom: 8px;
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         font-size: 22px;
         line-height: 30px;
@@ -524,7 +524,7 @@
         padding-left: 4px;
         border-bottom: 1px solid #e3dbd8;
         padding-bottom: 4px;
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         font-size: 22px;
         line-height: 30px;
@@ -612,7 +612,7 @@
             font-size: 14px;
             font-weight: 600;
             color: #333;
-            font-family: "Plus Jakarta Sans";
+            font-family: "IBM Plex Sans", sans-serif;
             font-weight: 600;
             font-size: 18px;
             line-height: 28px;
@@ -623,7 +623,7 @@
           .side-date {
             font-size: 12px;
             color: #777;
-            font-family: "Poppins";
+            font-family: "IBM Plex Sans", sans-serif;
           }
         }
       }
@@ -670,7 +670,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      font-family: "Poppins";
+      font-family: "IBM Plex Sans", sans-serif;
       li {
         padding: 6px 14px;
         background: #fff;
