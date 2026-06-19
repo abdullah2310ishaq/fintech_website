@@ -12,7 +12,7 @@
     font-weight: 400;
     color: #000;
     margin-bottom: 30px;
-    font-family: 'Tiro Kannada', serif; // use requested font
+    font-family: 'IBM Plex Sans', sans-serif; // use requested font
     text-align: center;
   }
 
@@ -103,14 +103,14 @@
     transition: opacity 0.3s ease;
     z-index: 2;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     padding: 60px;
     padding-bottom: 60px;
     flex-direction: column;
 
     .text-slider-detail{
-        font-family: 'Tiro Kannada', serif;
+        font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
 font-size: 20px;
 line-height: 100%;

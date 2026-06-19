@@ -36,7 +36,7 @@ html {
     .info-title {
       font-weight: 700;
       margin-bottom: 24px;
-      font-family: "Poppins";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 600;
       font-size: 42px;
       line-height: 120%;
@@ -55,7 +55,7 @@ html {
       text-align: center; // center align with second heading
       
       p {
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.7;
@@ -72,7 +72,7 @@ html {
     
     .info-subtitle {
       margin-bottom: 24px;
-      font-family: "Poppins";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 36px;
       line-height: normal;
@@ -122,7 +122,7 @@ html {
       line-height: 1.8;
 
       .address {
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 500;
         font-size: 19px;
         line-height: 150%;
@@ -135,7 +135,7 @@ html {
       }
 
       .address-2 {
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 500;
         font-size: 19px;
         line-height: 150%;
@@ -216,7 +216,7 @@ html {
       border-radius: 8px;
       padding: 0 16px;
       font-size: 16px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       resize: none;
 
       &::placeholder {
@@ -282,7 +282,7 @@ html {
       border-radius: 8px;
       padding: 0 16px;
       font-size: 16px;
-      font-family: "Poppins", sans-serif;
+      font-family: "IBM Plex Sans", sans-serif;
       color: #444;
       background-color: #fff;
       appearance: none;
@@ -339,7 +339,7 @@ html {
       justify-content: space-between;
 
       .text-box {
-        font-family: "DM Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -361,7 +361,7 @@ html {
 
     &.second {
       width: 245px;
-      font-family: "DM Sans";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
@@ -371,7 +371,7 @@ html {
 
     &.third {
       width: 320px;
-      font-family: "DM Sans";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
@@ -394,7 +394,7 @@ html {
           width: 319.64166259765625px;
           height: 47px;
           border-radius: 23.5px;
-          font-family: "DM Sans";
+          font-family: "IBM Plex Sans", sans-serif;
         }
 
         .blue-btn {
@@ -405,7 +405,7 @@ html {
           width: 319.64166259765625px;
           height: 47px;
           border-radius: 23.5px;
-          font-family: "DM Sans";
+          font-family: "IBM Plex Sans", sans-serif;
         }
       }
     }
@@ -466,7 +466,7 @@ html {
   .title {
     font-weight: 600;
     margin-bottom: 12px;
-    font-family: "Tiro Kannada";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -642,7 +642,7 @@ html {
       padding: 0 10px;
 
       h2 {
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 600;
         font-size: 22px;
         line-height: 30px;
@@ -659,7 +659,7 @@ html {
         margin-top: 0;
         
         p {
-          font-family: "Poppins";
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 400;
           font-size: 14px;
           line-height: 1.6;
@@ -696,7 +696,7 @@ html {
       .info-title {
         font-weight: 700;
         margin-bottom: 8px;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
@@ -708,7 +708,7 @@ html {
 
       .info-subtitle {
         margin-bottom: 20px;
-        font-family: "Poppins";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -728,7 +728,7 @@ html {
         order: 3; // After form
 
         .address {
-          font-family: "Poppins";
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 500;
           font-size: 13px;
           line-height: 150%;
@@ -740,7 +740,7 @@ html {
         }
 
         .address-2 {
-          font-family: "Poppins";
+          font-family: "IBM Plex Sans", sans-serif;
           color: #000000;
           font-weight: 500;
           font-size: 14px;
@@ -794,7 +794,7 @@ html {
         border-radius: 30px; // Fully rounded
         padding: 16px 20px;
         font-size: 14px;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
         resize: none;
         background: #ffffff; // White inputs
         color: #333;
@@ -851,7 +851,7 @@ html {
         border-radius: 30px;
         padding: 16px 20px 16px 20px;
         font-size: 14px;
-        font-family: "Poppins", sans-serif;
+        font-family: "IBM Plex Sans", sans-serif;
         color: #333;
         background-color: #fff;
         appearance: none;

@@ -19,7 +19,7 @@
     }
   }
   .service-heading {
-    font-family: "Tiro Kannada", Helvetica;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 1.2;
@@ -83,7 +83,7 @@
   left: 30px;
   display: flex;
   flex-direction: column;
-  font-family: "Tiro Kannada";
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 55px;
@@ -166,7 +166,7 @@
       transition: opacity 0.3s ease, transform 0.3s ease;
 
       span:first-child {
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         font-size: 22px;
         line-height: 30px;
@@ -278,7 +278,7 @@
         pointer-events: none;
 
         span:first-child {
-          font-family: "Plus Jakarta Sans";
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 700;
           font-size: 18px;
           line-height: 24px;
@@ -364,7 +364,7 @@
   }
 
   .service-heading {
-    font-family: "Tiro Kannada", Helvetica;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 30px;
     line-height: 1.2;
     text-align: center;

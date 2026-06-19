@@ -3,7 +3,7 @@
   gap: 118px; // increased spacing between form and text in web view
   flex-wrap: wrap; // ensures responsiveness
   color: #222;
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   background: linear-gradient(90deg, #005F77 0%, #018699 100%);
   padding: 150px 20px 20px 90px; // original spacing
   position: relative;
@@ -72,7 +72,7 @@
   .title {
     font-weight: 600;
     margin-bottom: 12px;
-    font-family: "Tiro Kannada";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -104,7 +104,7 @@
     color: #ffffff;
     margin-bottom: 24px;
     line-height: 30px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
@@ -196,7 +196,7 @@ letter-spacing: 0%;
 
       .primary {
         // margin-bottom: 10px;
-           font-family: 'Plus Jakarta Sans';
+           font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -216,7 +216,7 @@ letter-spacing: 0%;
 
       .secondary {
         color: #f7f7f7;
-           font-family: 'Plus Jakarta Sans';
+           font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 600;
 font-size: 18px;
 line-height: 28px;
@@ -281,7 +281,7 @@ letter-spacing: 0%;
       margin-bottom: 6px;
       margin-left: 12px;
       color: #fff;
-      font-family: 'Plus Jakarta Sans';
+      font-family: 'IBM Plex Sans', sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 30px;
@@ -405,7 +405,7 @@ letter-spacing: 0%;
     cursor: pointer;
     align-self: flex-start;
 
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 30px;
@@ -579,7 +579,7 @@ letter-spacing: 0%;
 }
 
 .footer-description {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #ccc;
@@ -596,7 +596,7 @@ letter-spacing: 0%;
 
 .footer-column {
   h4 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -610,7 +610,7 @@ letter-spacing: 0%;
   }
 
   p {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #ccc;
@@ -626,7 +626,7 @@ letter-spacing: 0%;
 
   .footer-link {
     display: block;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #ccc;
@@ -654,7 +654,7 @@ letter-spacing: 0%;
 }
 
 .text-box {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   
@@ -694,7 +694,7 @@ letter-spacing: 0%;
 .white-btn, .blue-btn {
   padding: 12px 24px;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
@@ -742,7 +742,7 @@ letter-spacing: 0%;
 
 .footer-disclaimer {
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 13px;
   line-height: 20px;
   color: #999;

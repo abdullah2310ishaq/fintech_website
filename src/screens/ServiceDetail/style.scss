@@ -9,7 +9,7 @@
     top: 0px !important;
   }
   .blog-title {
-    font-family: "Tiro Kannada";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 73px;
@@ -17,7 +17,7 @@
     text-align: center;
   }
   .blog-subtitle {
-    font-family: "Poppins";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -39,7 +39,7 @@
     // padding-bottom: 21px;
     // padding-left: 30px;
     background: #02879a !important;
-    font-family: "Poppins";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 100%;
@@ -85,7 +85,7 @@
     object-fit: cover;
   }
   .blog-title-second {
-    font-family: "Tiro Kannada";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 50px;
     line-height: 60px;
@@ -96,7 +96,7 @@
 
   .blog-content {
     margin: 10px 0;
-    font-family: "Plus Jakarta Sans";
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -211,7 +211,7 @@
       max-width: 600px;
 
       .explore-heading {
-        font-family: "Tiro Kannada";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 30px;
         line-height: 36px;
@@ -219,7 +219,7 @@
         text-transform: capitalize;
       }
       .explore-beyond-text {
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
@@ -227,7 +227,7 @@
         color: #727272;
       }
       .explore-beyond-text-1 {
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
@@ -237,7 +237,7 @@
       }
 
       .bold-heading {
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 600;
         font-size: 18px;
         line-height: 28px;
@@ -259,7 +259,7 @@
         list-style: none;
         padding: 0;
         margin: 20px 0 0 0;
-        font-family: "Plus Jakarta Sans";
+        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
@@ -324,7 +324,7 @@
       color: #feffff;
       font-size: 38px;
       font-weight: bold;
-      font-family: serif;
+      font-family: "IBM Plex Sans", sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -333,7 +333,7 @@
     }
 
     .text-card-detail {
-      font-family: "Poppins";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 15px;
       line-height: 25px;
@@ -343,7 +343,7 @@
     }
 
     .authorTeam {
-      font-family: "Plus Jakarta Sans";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 700;
       font-size: 22px;
       line-height: 30px;
@@ -352,7 +352,7 @@
     }
 
     .dummy {
-      font-family: "Plus Jakarta Sans";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 30px;
@@ -374,7 +374,7 @@
     margin-top: 50px;
     .get-consultancy-title {
       // display: flex;
-      font-family: "Tiro Kannada";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 30px;
       line-height: 36px;
@@ -384,7 +384,7 @@
     }
 
     .get-consultancy-subText {
-      font-family: "Plus Jakarta Sans";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 30px;
@@ -493,7 +493,7 @@
     background: linear-gradient(135deg, #005f77 0%, #018699 100%);
 
     .meet-team-heading {
-      font-family: "Tiro Kannada";
+      font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
       font-size: 50px;
       line-height: 60px;
@@ -527,7 +527,7 @@
         padding: 20px 0;
 
         .specialist-name {
-          font-family: "Playfair Display", serif;
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 400;
           font-size: 48px;
           line-height: 56px;
@@ -548,7 +548,7 @@
           }
 
           span {
-            font-family: "Plus Jakarta Sans", sans-serif;
+            font-family: "IBM Plex Sans", sans-serif;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -559,7 +559,7 @@
         }
 
         .specialist-bio {
-          font-family: "Plus Jakarta Sans", sans-serif;
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 400;
           font-size: 16px;
           line-height: 28px;
@@ -581,7 +581,7 @@
             gap: 8px;
 
             .detail-label {
-              font-family: "Plus Jakarta Sans", sans-serif;
+              font-family: "IBM Plex Sans", sans-serif;
               font-weight: 700;
               font-size: 16px;
               line-height: 24px;
@@ -590,7 +590,7 @@
             }
 
             .detail-value {
-              font-family: "Plus Jakarta Sans", sans-serif;
+              font-family: "IBM Plex Sans", sans-serif;
               font-weight: 400;
               font-size: 16px;
               line-height: 24px;
@@ -600,7 +600,7 @@
         }
 
         .simple-heading {
-          font-family: "Plus Jakarta Sans";
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 400;
           font-size: 16px;
           line-height: 30px;
@@ -612,7 +612,7 @@
           height: 50px;
           border-radius: 25px;
           background: linear-gradient(90deg, #005f77 0%, #018699 100%);
-          font-family: "Plus Jakarta Sans", sans-serif;
+          font-family: "IBM Plex Sans", sans-serif;
           font-weight: 600;
           font-size: 16px;
           line-height: 24px;
